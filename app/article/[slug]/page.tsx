@@ -46,6 +46,7 @@ export default function ArticlePage({ params }: Props) {
   const article = loadArticle(params.slug);
   if (!article || !article.generated) notFound();
 
+  const existingSlugs = new Set(getAllSlugs());
   const country = COUNTRIES_BY_CODE[article.countryCode];
   const category = CATEGORY_META[article.category];
 
@@ -97,7 +98,7 @@ export default function ArticlePage({ params }: Props) {
       </header>
 
       {/* Article body */}
-      <ArticleBody article={article} />
+      <ArticleBody article={article} existingSlugs={existingSlugs} />
     </div>
   );
 }
