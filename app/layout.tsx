@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description:
     "India's foreign policy intelligence platform. Every analysis sourced exclusively from official Government of India publications — MEA, PIB, Ministry of Defence, Ministry of Commerce.",
   keywords: ["India foreign policy", "MEA", "diplomatic intelligence", "India geopolitics"],
+  alternates: {
+    types: {
+      "application/rss+xml": "https://bharat-intel-seven.vercel.app/api/rss",
+    },
+  },
 };
 
 export default function RootLayout({

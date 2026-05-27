@@ -26,6 +26,9 @@ export default function Footer() {
                 <Link href="/" className="hover:text-slate-800 transition-colors">Latest</Link>
                 <Link href="/country" className="hover:text-slate-800 transition-colors">Countries</Link>
                 <Link href="/search" className="hover:text-slate-800 transition-colors">Search</Link>
+                <a href="/api/rss" className="hover:text-slate-800 transition-colors flex items-center gap-1" target="_blank" rel="noopener noreferrer">
+                  RSS Feed
+                </a>
               </div>
             </div>
 
