@@ -1,0 +1,74 @@
+{
+  "slug": "india-pakistan-operation-sindoor-2025",
+  "countryCode": "pk",
+  "date": "2025-05-10",
+  "title": "Operation Sindoor: India Changes the Deterrence Calculus With Pakistan",
+  "lede": "India's precision strikes against nine terrorist infrastructure sites across Pakistan and Pakistan-occupied Kashmir in May 2025 mark the most significant military action since 1971 — and fundamentally rewrite the rules of South Asian nuclear deterrence.",
+  "category": "defence",
+  "significance": "high",
+  "sections": {
+    "context": "At 1:05 AM on 7 May 2025, Indian Air Force Rafale jets and Army SCALP cruise missiles hit nine sites across Pakistan and Pakistan-occupied Kashmir simultaneously. The targets — Jaish-e-Mohammed's Bahawalpur headquarters, Lashkar-e-Toiba's Muridke complex, and seven other terror infrastructure sites — had been identified in detailed intelligence packages prepared over the two weeks following the 26 April Pahalgam attack that killed 26 tourists. [[india-pakistan-pahalgam-attack-2025|↩ The trigger: Pahalgam attack]]\n\nMEA's official statement named the operation 'Sindoor' — a reference to the sindoor (vermilion) widowed by the attacks — and described the strikes as 'measured, non-escalatory, proportionate and responsible.' The operation was designed to be surgical: civilian infrastructure, Pakistani military installations, and nuclear facilities were explicitly avoided. India was signalling a new doctrine — that cross-border terrorism would meet kinetic retaliation, but that India would control the escalation ladder.\n\nPakistan's Air Force launched retaliatory air strikes the following morning, intercepted in part by the S-400 Triumf surface-to-air missile systems India had acquired from Russia. [[india-russia-s400-sindoor-2025|↔ S-400 proves its worth]] Three Pakistani aircraft were shot down. Pakistan declared a national emergency; India declared a 'brief cessation of operations' after 72 hours, with the implicit message delivered.",
+    "threads": "Operation Sindoor sits at the intersection of three long-running storylines that have been building since 2016.\n\nThe surgical strikes after Uri in 2016 were the first time India acknowledged cross-LoC kinetic action in the nuclear era. Balakot in 2019 raised the bar — airstrikes for the first time since 1971. Sindoor in 2025 went further still: deep strikes inside mainland Pakistan, not just PoK. Each escalation has tested whether Pakistan's nuclear deterrent actually deters below the existential threshold. India's answer, now tested three times, is: no, it does not. [[india-pakistan-balakot-2019|↩ Balakot set the precedent]] [[india-pakistan-uri-surgical-strikes-2016|↩ Uri: where the doctrine began]]\n\nChina's role deserves close scrutiny. Pakistan's Air Force flew Chinese J-10C aircraft equipped with PL-15 missiles in its retaliatory strike. Chinese military advisers were reportedly present in Pakistani air defence command centres. Beijing issued only a bland call for 'restraint and dialogue' — notably, it did not invoke the China-Pakistan 'ironclad friendship' language that typically appears in moments of Pakistani vulnerability. China quietly assessed that Pakistan's loss would not justify Chinese escalation. [[india-china-pakistan-nexus-2025|↔ China watches but stays out]]\n\nThe international response was split. The US, UK, France, and Israel privately backed India's right to respond to terrorism. Gulf states were carefully neutral — they have too much investment in both countries to choose. Russia called for restraint but did not condemn. The UN Security Council met but issued no statement, blocked by Chinese hesitation to fully back Pakistan. India's diplomatic isolation risk — a key constraint in previous confrontations — was substantially lower than expected.",
+    "signal": "The post-Sindoor architecture will define South Asian security for the next decade.\n\nWatch whether India formalises the 'Sindoor doctrine' — an explicit public statement that cross-border terrorism will meet proportionate kinetic retaliation. India has so far avoided codifying this to preserve operational ambiguity, but there is a school of thought in South Block that clarity deters more effectively than ambiguity.\n\nWatch the Indus Waters Treaty status. India formally notified Pakistan of its suspension of IWT cooperation in the wake of Pahalgam [[india-pakistan-iwt-suspension-2025|↪ IWT: the next pressure point]]. This is potentially more strategically significant than the military strikes — water is an existential issue for Pakistan's agricultural economy in a way that terrorist bases are not.\n\nWatch whether Pakistan's Army-civilian relationship cracks under the dual pressure of military humiliation and economic stress. Pakistan's IMF programme was thrown into uncertainty by the crisis; several GCC countries that are Islamabad's financial lifelines explicitly backed New Delhi's right to self-defence. A Pakistani Army that has lost a military confrontation, a diplomatic confrontation, and faces renewed economic pressure is an Army in internal crisis — and internal crises in Rawalpindi have historically produced unpredictable foreign policy moves. [[india-pakistan-imf-pressure-2025|↪ Pakistan's economic stress deepens]]"
+  },
+  "links": [
+    {
+      "slug": "india-pakistan-pahalgam-attack-2025",
+      "label": "The trigger: Pahalgam attack",
+      "direction": "backward",
+      "preview": "26 April 2025: 26 tourists killed by Lashkar-e-Toiba linked militants in Pahalgam, Kashmir"
+    },
+    {
+      "slug": "india-russia-s400-sindoor-2025",
+      "label": "S-400 proves its worth",
+      "direction": "sideways",
+      "preview": "India's Russian S-400 systems shot down three Pakistani aircraft during the retaliatory phase"
+    },
+    {
+      "slug": "india-pakistan-balakot-2019",
+      "label": "Balakot set the precedent",
+      "direction": "backward",
+      "preview": "February 2019: India's first cross-border air strikes since 1971, targeting JeM camps in Balakot"
+    },
+    {
+      "slug": "india-pakistan-uri-surgical-strikes-2016",
+      "label": "Uri: where the doctrine began",
+      "direction": "backward",
+      "preview": "September 2016: India acknowledged cross-LoC surgical strikes for the first time"
+    },
+    {
+      "slug": "india-china-pakistan-nexus-2025",
+      "label": "China watches but stays out",
+      "direction": "sideways",
+      "preview": "China's J-10C aircraft appeared in Pakistani retaliatory strikes but Beijing avoided direct involvement"
+    },
+    {
+      "slug": "india-pakistan-iwt-suspension-2025",
+      "label": "IWT: the next pressure point",
+      "direction": "forward",
+      "preview": "India's suspension of the Indus Waters Treaty could have far more lasting impact than the military strikes"
+    },
+    {
+      "slug": "india-pakistan-imf-pressure-2025",
+      "label": "Pakistan's economic stress deepens",
+      "direction": "forward",
+      "preview": "Pakistan's IMF programme faces new uncertainty as Gulf financial backers signal support for India"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA: Statement on Operation Sindoor, 7 May 2025",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "label": "MEA: India's position on cross-border terrorism",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "label": "Ministry of Defence: Operation Sindoor briefing",
+      "url": "https://www.mod.gov.in/press-releases"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": "pk-003"
+}

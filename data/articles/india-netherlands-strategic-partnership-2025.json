@@ -1,0 +1,68 @@
+{
+  "slug": "india-netherlands-strategic-partnership-2025",
+  "countryCode": "nl",
+  "date": "2025-11-14",
+  "title": "India–Netherlands: The Semiconductor Handshake That Could Change Everything",
+  "lede": "A quietly upgraded strategic partnership with the Netherlands gives India its best shot yet at joining the global semiconductor supply chain — but ASML's export controls remain the critical variable.",
+  "category": "economic",
+  "significance": "high",
+  "sections": {
+    "context": "When PM Modi sat down with Dutch PM Dick Schoof in The Hague in November 2025, the agenda looked deceptively modest: water management, agriculture, logistics. But the meeting's real weight lay in a single paragraph buried in the joint statement — a commitment to explore 'cooperation in advanced semiconductor manufacturing technologies.'\n\nThe Netherlands is home to ASML, the only company in the world that manufactures extreme ultraviolet (EUV) lithography machines — the equipment without which no advanced chip below 5nm can be made. Taiwan's TSMC, South Korea's Samsung, and the US's Intel all depend on machines that only exist because of a factory in Veldhoven. This monopoly means that the Netherlands, a country of 17 million people, holds a structural chokepoint in the global technology order.\n\nIndia's semiconductor ambitions — codified in the ₹76,000 crore India Semiconductor Mission — have always had an ASML-shaped hole in them. The Tata Electronics fab in Dholera and the Micron memory plant in Sanand are real milestones, but they are lagging-edge nodes (28nm and above). Getting to advanced chips requires EUV. Getting EUV requires ASML. Getting ASML requires the Dutch government to not say no.\n\nThe 2025 upgrade signals that The Hague is open to deeper engagement — though export license approvals for EUV machines, which go to India's Ministry of External Affairs via Dutch export control authority CINT, remain a separate and more complex track entirely. [[india-us-trade-deal-semiconductor-2026|↪ US deal adds semiconductor pressure]] [[india-semiconductors-background-2021|↩ How India got into chips]]",
+    "threads": "The Dutch partnership sits at the intersection of three concurrent storylines.\n\nFirst, the US-India technology axis. Washington has been actively encouraging European allies to deepen technology ties with India as part of its China+1 strategy. The iCET framework [[india-us-icet-2022|↩ iCET explained]] has specifically flagged semiconductor supply chain diversification as a priority. American pressure on ASML over China exports has paradoxically opened a door for India — as ASML needs new stable markets to replace lost China revenue, India becomes commercially attractive.\n\nSecond, the European pivot to India. Post-Ukraine, European governments are actively courting large democracies as reliable partners. The Netherlands sees India as a 100-million-person urban middle class market for Dutch exports — ASML hardware, HEMA-style retail, Philips healthcare equipment, Van Oord dredging. The semiconductor angle is the hook, but the commercial interest is much broader. [[india-germany-economic-partnership-2023|↔ Germany making the same calculation]]\n\nThird, India's own chip diplomacy. MEA has been unusually active in cultivating relationships specifically around semiconductor supply chains — Taiwan (where TSMC's founder Morris Chang has twice met Indian officials), Japan (equipment makers), South Korea (Samsung and SK Hynix), and now the Netherlands. India is systematically building a coalition of technology suppliers before it has even decided what to build. [[india-japan-semiconductor-2024|↔ Japan parallel track]]",
+    "signal": "Watch for three things in the next 18 months.\n\nFirst, whether any ASML DUV (deep ultraviolet) machines appear in Indian customs data. DUV machines are one generation behind EUV but still require Dutch export licenses. An Indian DUV approval would be a significant signal that the export control track is moving in parallel with the diplomatic track. ASML's financial results would confirm any new India orders.\n\nSecond, the Tata-TSMC negotiation outcome. Reliable sources in the Indian semiconductor industry suggest Tata is exploring a joint venture with TSMC for a 12–16nm fab, which would be a genuine advanced-node play. Such a fab would need Dutch lithography equipment. If TSMC comes in, ASML equipment follows automatically because TSMC will not build without its standard toolchain.\n\nThird, whether the India-EU FTA negotiations (stalled since 2013, relaunched in 2022) make meaningful progress on the technology chapter. A broader trade framework would give ASML and other Dutch exporters the regulatory certainty they need to commit capital to India. [[india-eu-fta-2022|↪ FTA could unlock deeper tech ties]]"
+  },
+  "links": [
+    {
+      "slug": "india-us-trade-deal-semiconductor-2026",
+      "label": "US deal adds semiconductor pressure",
+      "direction": "forward",
+      "preview": "The February 2026 India–US trade deal included specific commitments on semiconductor supply chain cooperation"
+    },
+    {
+      "slug": "india-semiconductors-background-2021",
+      "label": "How India got into chips",
+      "direction": "backward",
+      "preview": "India's semiconductor mission was announced in December 2021 with ₹76,000 crore in incentives"
+    },
+    {
+      "slug": "india-us-icet-2022",
+      "label": "iCET explained",
+      "direction": "backward",
+      "preview": "The India–US Initiative on Critical and Emerging Technologies (iCET) launched in January 2023"
+    },
+    {
+      "slug": "india-germany-economic-partnership-2023",
+      "label": "Germany making the same calculation",
+      "direction": "sideways",
+      "preview": "Germany's 2023 IGC with India similarly foregrounded tech and industrial partnerships"
+    },
+    {
+      "slug": "india-japan-semiconductor-2024",
+      "label": "Japan parallel track",
+      "direction": "sideways",
+      "preview": "Japan's equipment makers — Tokyo Electron, Shin-Etsu — are building Indian footprints"
+    },
+    {
+      "slug": "india-eu-fta-2022",
+      "label": "FTA could unlock deeper tech ties",
+      "direction": "forward",
+      "preview": "The India-EU FTA, relaunched in 2022, has a technology chapter that could formalise export controls"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA: India–Netherlands Joint Statement, November 2025",
+      "url": "https://www.mea.gov.in/bilateral-documents.htm"
+    },
+    {
+      "label": "MEA: PM Modi's visit to the Netherlands",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "label": "Ministry of Electronics and IT: India Semiconductor Mission",
+      "url": "https://www.meit.gov.in/semiconductor"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": "nl-003"
+}

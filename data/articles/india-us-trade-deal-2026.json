@@ -1,0 +1,74 @@
+{
+  "slug": "india-us-trade-deal-2026",
+  "countryCode": "us",
+  "date": "2026-02-14",
+  "title": "India–US Trade Deal: The Deal That Rewired India's Geopolitics",
+  "lede": "February 2026's bilateral trade framework is not just a trade deal — it is India's most consequential foreign policy commitment since 1991, trading strategic autonomy constraints for technology access and market entry.",
+  "category": "economic",
+  "significance": "high",
+  "sections": {
+    "context": "The India–US bilateral trade framework signed on 14 February 2026 was three years in the making and required India to accept conditions it had previously considered red lines. In exchange for a phased reduction in US tariffs on Indian goods (pharma, textiles, gems, IT services), India committed to: a phase-down of Russian crude oil imports [[india-russia-oil-phasedown-2026|↪ Russia relationship stress-tested]], enhanced IP protections that had long been a US demand on pharma data exclusivity, opening of specific financial services sectors, and a bilateral investment treaty framework.\n\nThe significance of the Russian oil commitment cannot be overstated. Russia had grown to supply ~35% of India's crude by late 2024, partly because sanctions had made Russian oil available at a 20–25% discount. The US demand was not just commercial — it was strategic. Washington wanted India to be less dependent on Russian energy revenues before it would deepen technology partnerships. India's willingness to commit to this phase-down signals a fundamental reassessment of the Russia relationship's strategic value in a post-Ukraine world. [[india-russia-relationship-2024|↩ The Russia relationship before the deal]]\n\nFor the US side, the deal represents a major strategic win for the 'Indo-Pacific economic architecture' project that had been stalled since the collapse of IPEF's trade pillar. Getting India into a binding bilateral framework creates a template for other partners.",
+    "threads": "The trade deal is inseparable from three concurrent developments.\n\nFirst, Operation Sindoor and its diplomatic aftermath. [[india-pakistan-operation-sindoor-2025|↔ Operation Sindoor: the context]] Washington's private support for India's post-Pahalgam response — along with the public non-condemnation at the UN Security Council — was widely seen in New Delhi as having been 'earned' through the deepening strategic relationship. The Biden-era iCET framework [[india-us-icet-2022|↩ iCET: technology partnership]] had built the trust architecture that made the trade deal possible.\n\nSecond, the technology dimension. The deal includes a separate annexure on 'critical and emerging technology cooperation' that is, in effect, an extension of iCET. Specific commitments include: US government support for ASML export license applications for India (coordinated with the Netherlands [[india-netherlands-strategic-partnership-2025|↔ Netherlands semiconductor angle]]), easing of export controls on semiconductor manufacturing equipment under EAR, and a new AI safety cooperation framework.\n\nThird, the China variable. India's deepening US partnership is a hedge against a scenario where the LAC dispute with China [[india-china-galwan-aftermath-2024|↩ The LAC reset after Galwan]] deteriorates again. India is not abandoning strategic autonomy — it is using it more strategically, choosing which constraints to accept in exchange for which capabilities.",
+    "signal": "The deal will be tested against three benchmarks over the next two years.\n\nFirst, Russian oil wind-down implementation. India committed to reducing Russian crude below 15% of imports by end-2027. Refiners like Reliance and IOC are already re-contracting with Gulf suppliers. If Russian oil prices fall further due to European demand destruction, the economic cost of the wind-down rises — and with it, domestic political pressure to slow the timeline. Watch quarterly import data from India's Petroleum Ministry.\n\nSecond, the pharma data exclusivity fight. Indian generic drug companies — which supply 40% of US generics and 60% of WHO-required vaccines — view the IP commitments as an existential threat to their business model. The Indian Pharmaceutical Alliance has already challenged the MEA interpretation of what was agreed. This is the deal's most likely domestic political pressure point. [[india-pharma-ip-dispute-2026|↪ Pharma IP: the coming fight]]\n\nThird, whether the technology annexure produces concrete approvals. Diplomatic commitments to 'support' export licenses are not the same as approved export licenses. If ASML EUV machines do not start arriving in Indian customs declarations within 18 months, the technology promises will be seen as hollow — and the political cost of the concessions will feel larger."
+  },
+  "links": [
+    {
+      "slug": "india-russia-oil-phasedown-2026",
+      "label": "Russia relationship stress-tested",
+      "direction": "forward",
+      "preview": "India's commitment to phase down Russian crude puts the bilateral relationship under new strain"
+    },
+    {
+      "slug": "india-russia-relationship-2024",
+      "label": "The Russia relationship before the deal",
+      "direction": "backward",
+      "preview": "Modi's July 2024 Moscow visit marked the high point of India-Russia ties in the post-Ukraine era"
+    },
+    {
+      "slug": "india-pakistan-operation-sindoor-2025",
+      "label": "Operation Sindoor: the context",
+      "direction": "sideways",
+      "preview": "US private support for India's response to the Pahalgam attack built political capital for the trade deal"
+    },
+    {
+      "slug": "india-us-icet-2022",
+      "label": "iCET: technology partnership",
+      "direction": "backward",
+      "preview": "The iCET framework, launched January 2023, built the trust architecture for the trade deal"
+    },
+    {
+      "slug": "india-netherlands-strategic-partnership-2025",
+      "label": "Netherlands semiconductor angle",
+      "direction": "sideways",
+      "preview": "The US committed to supporting ASML export licenses for India as part of the technology annexure"
+    },
+    {
+      "slug": "india-china-galwan-aftermath-2024",
+      "label": "The LAC reset after Galwan",
+      "direction": "backward",
+      "preview": "India's October 2024 LAC disengagement with China created the space to deepen the US relationship"
+    },
+    {
+      "slug": "india-pharma-ip-dispute-2026",
+      "label": "Pharma IP: the coming fight",
+      "direction": "forward",
+      "preview": "Indian generics companies are challenging the IP commitments made in the trade deal"
+    }
+  ],
+  "sources": [
+    {
+      "label": "White House: Fact Sheet — India–US Trade Framework, February 2026",
+      "url": "https://www.whitehouse.gov/briefing-room"
+    },
+    {
+      "label": "MEA: India–US Bilateral Trade Framework Statement",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "label": "Ministry of Commerce: Trade framework summary",
+      "url": "https://commerce.gov.in/press-releases"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": "us-010"
+}

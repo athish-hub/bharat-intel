@@ -1,0 +1,68 @@
+{
+  "slug": "india-china-galwan-aftermath-2024",
+  "countryCode": "cn",
+  "date": "2024-10-22",
+  "title": "India–China LAC Disengagement: A Reset That Resets Nothing",
+  "lede": "The October 2024 Depsang and Demchok disengagement restores patrols suspended since 2020 — but the structural causes of the Galwan rupture, and China's deeper strategic intent on the LAC, remain entirely unresolved.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "On 21 October 2024, India and China announced an agreement on 'patrolling arrangements' along the Line of Actual Control — the first breakthrough in four years of military-level talks that had failed to resolve the most contested friction points from the June 2020 Galwan Valley clash. [[india-china-galwan-2020|↩ Galwan: the confrontation that reset relations]] The specific locations unlocked were Depsang Bulge and Demchok, the two remaining flashpoints where China had constructed infrastructure inside India's claimed patrol limits.\n\nThe agreement was reached in the week before the BRICS summit in Kazan, Russia — where PM Modi and President Xi Jinping had their first formal bilateral since 2019. The timing was not coincidental. Both sides wanted the summit meeting to happen, and both sides needed something to announce. The disengagement gave the diplomats something to work with. The Modi-Xi Kazan meeting produced a vague but positive joint statement calling for 'early resolution' of remaining differences and the revival of the Special Representatives mechanism that had been the traditional boundary dispute channel. [[india-china-brics-kazan-2024|↔ The Kazan summit context]]\n\nIndian Army officials confirmed to parliamentary committees that Chinese forces had returned to their pre-April 2020 positions at the two points — but crucially, not all infrastructure built during the standoff has been removed. China's road network in Aksai Chin, built or upgraded during the confrontation period, remains. The buffer zones established in earlier disengagements (Galwan, Gogra, Hot Springs) also remain in place.",
+    "threads": "The LAC reset needs to be read against three structural realities.\n\nFirst, China's infrastructure advantage has permanently changed the military balance in Ladakh. Between 2020 and 2024, China built or upgraded approximately 600km of roads, 30+ villages, military storage facilities, and surveillance infrastructure in the areas adjacent to the LAC. India has responded with its own infrastructure push — the Border Roads Organisation's work since 2020 has been substantial — but China's head start in logistics infrastructure gives PLA forces faster deployment capability than in 2020. The disengagement restores patrols; it does not restore the 2019 military balance. [[india-china-infrastructure-race-2022|↩ The infrastructure race in Ladakh]]\n\nSecond, India's China policy has bifurcated under pressure. Trade with China has actually grown since 2020, exceeding $100 billion annually despite official disquiet — Indian manufacturers cannot find alternative suppliers for many critical components (electronics, pharmaceuticals APIs, rare earths). But FDI has been tightly restricted, Chinese apps banned, and Huawei excluded from 5G. The pattern is: grudging economic integration where alternatives don't exist, strategic decoupling where they do. [[india-china-trade-despite-standoff-2022|↩ Why India-China trade kept growing]]\n\nThird, the US-India relationship provides India a structural hedge. The iCET technology partnership, the Quad security framework [[india-us-quad-2021|↔ Quad: the China hedge]], and the growing India-US defence supply chain mean India enters any renewed China confrontation with more options than it had in 2020. This changes the calculus on both sides.",
+    "signal": "Watch for three indicators of whether this reset is substantive or cosmetic.\n\nFirst, whether the Special Representatives mechanism (National Security Advisor Doval for India, Vice Foreign Minister Wang Yi for China) actually meets and resumes boundary talks. No SR meeting has occurred since December 2019. A resumed meeting schedule would signal genuine diplomatic momentum. Its absence would signal that the October 2024 deal was transactional rather than relationship-restoring.\n\nSecond, whether Chinese infrastructure activity in the buffer zones continues. Satellite imagery services (Planet Labs, Maxar) provide near-daily coverage of LAC friction points. If Chinese construction restarts in the buffer zones post-disengagement, the military-level talks will resume on an adversarial footing. Watch the Defence Minister's statements to Parliament in the 2025 budget session — they typically contain oblique references to LAC infrastructure developments. [[india-china-two-plus-two-signal|↪ Watch for India-China 2+2]]\n\nThird, whether India's Arunachal Pradesh infrastructure accelerates or decelerates. India is building strategic roads and tunnels in Arunachal at unprecedented pace — the Sela Tunnel opened in 2024. The pace of this construction signals India's assessment of Chinese intent more accurately than any public statement. Deceleration would signal confidence; acceleration would signal continued concern."
+  },
+  "links": [
+    {
+      "slug": "india-china-galwan-2020",
+      "label": "Galwan: the confrontation that reset relations",
+      "direction": "backward",
+      "preview": "June 2020: 20 Indian soldiers killed in Galwan Valley, the worst border clash since 1967"
+    },
+    {
+      "slug": "india-china-brics-kazan-2024",
+      "label": "The Kazan summit context",
+      "direction": "sideways",
+      "preview": "The BRICS Kazan summit in October 2024 was the diplomatic occasion for the LAC disengagement announcement"
+    },
+    {
+      "slug": "india-china-infrastructure-race-2022",
+      "label": "The infrastructure race in Ladakh",
+      "direction": "backward",
+      "preview": "Since 2020, both India and China have built unprecedented border infrastructure in the Himalayan theatre"
+    },
+    {
+      "slug": "india-china-trade-despite-standoff-2022",
+      "label": "Why India-China trade kept growing",
+      "direction": "backward",
+      "preview": "Despite political freeze, India-China bilateral trade grew past $100 billion as supply chain dependence proved sticky"
+    },
+    {
+      "slug": "india-us-quad-2021",
+      "label": "Quad: the China hedge",
+      "direction": "sideways",
+      "preview": "The Quad's 2021 elevation to leader-level summits gave India a strategic hedge against China"
+    },
+    {
+      "slug": "india-china-two-plus-two-signal",
+      "label": "Watch for India-China 2+2",
+      "direction": "forward",
+      "preview": "A proposed India-China 2+2 dialogue (Defence + Foreign Ministers) has been discussed but not scheduled"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA: Statement on LAC patrolling arrangements, October 2024",
+      "url": "https://www.mea.gov.in/press-releases.htm"
+    },
+    {
+      "label": "MEA: PM Modi–President Xi Jinping bilateral at Kazan",
+      "url": "https://www.mea.gov.in/bilateral-documents.htm"
+    },
+    {
+      "label": "Ministry of Defence: Ladakh LAC situation update",
+      "url": "https://www.mod.gov.in/press-releases"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": "cn-009"
+}
