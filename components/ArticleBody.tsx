@@ -191,7 +191,7 @@ export default function ArticleBody({ article, existingSlugs }: Props) {
         />
         <div className="text-base">
           {sections.threads.split("\n\n").map((para, i) => (
-            <ProseBlock key={i} text={para} links={links} />
+            <ProseBlock key={i} text={para} links={links} existingSlugs={existingSlugs} />
           ))}
         </div>
 
