@@ -151,6 +151,24 @@ export const COUNTRIES: CountryMeta[] = [
     summary: "India's most important Southeast Asian partner and fellow G20 member. The 2018 Comprehensive Strategic Partnership covers defence, trade, and digital. Indonesia is a key voice in the Indian Ocean regional architecture India is trying to build.",
     region: "Asia",
   },
+  {
+    code: "mm", numericCode: "104", name: "Myanmar", flag: "🇲🇲",
+    status: "complex", statusLabel: "Complex",
+    summary: "India's only ASEAN land neighbour and a critical node in Act East connectivity. The 2021 military coup created a humanitarian crisis on India's northeastern border and handed China a strategic windfall. India has maintained quiet engagement with the junta while supporting Manipur border security. The India-Myanmar-Thailand trilateral highway is the flagship connectivity project at risk.",
+    region: "Asia",
+  },
+  {
+    code: "ve", numericCode: "862", name: "Venezuela", flag: "🇻🇪",
+    status: "partner", statusLabel: "Partner",
+    summary: "A long-standing energy and Global South partner now re-emerging in India's strategic calculus. Venezuela holds the world's largest proven oil reserves and India has historically been a significant buyer. Acting President Maduro's June 2026 state visit — the first in decades — signals India's effort to diversify energy sources and reinforce South-South ties outside Western pressure.",
+    region: "Americas",
+  },
+  {
+    code: "cy", numericCode: "196", name: "Cyprus", flag: "🇨🇾",
+    status: "partner", statusLabel: "Partner",
+    summary: "A small but strategically significant partner. Cyprus serves as a financial gateway for Indian investments into Europe and the Middle East; Limassol hosts a sizeable Indian business community. India has supported Cyprus's position on the Turkish occupation of northern Cyprus, creating diplomatic goodwill. The bilateral relationship is expanding into shipping, legal services, and digital trade.",
+    region: "Europe",
+  },
 ];
 
 export const COUNTRIES_BY_CODE: Record<string, CountryMeta> = Object.fromEntries(
