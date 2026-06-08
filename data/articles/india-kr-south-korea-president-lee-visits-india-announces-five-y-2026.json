@@ -1,0 +1,60 @@
+{
+  "slug": "india-kr-south-korea-president-lee-visits-india-announces-five-y-2026",
+  "countryCode": "kr",
+  "date": "2026-06-05",
+  "title": "South Korea President Lee Visits India, Announces Five-Year Strategic Partnership Vision",
+  "lede": "South Korean President Lee Jae Myung completed an early state visit to India in April 2026, during which he and PM Modi announced a Joint Strategic Vision to deepen the India-ROK Special Strategic Partnership through 2030 across multiple domains.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "President Lee Jae Myung's visit to India from 19-21 April 2026 represents the earliest visit to India by a Korean President after assuming office, signaling Seoul's diplomatic priority toward New Delhi. The visit came at PM Modi's invitation and was accompanied by a high-level delegation including Korean Ministers, senior officials, and leading CEOs. The timing reflects both nations' positioning in a rapidly changing regional security environment. India and South Korea are described as 'two vibrant and resilient democracies of Asia and leading world economies' sharing deep historical ties and mutual goodwill. The bilateral meeting on 20 April produced a comprehensive five-year partnership roadmap (2026-2030) designed to translate shared democratic and civilizational values into concrete cooperation across multiple sectors.",
+    "threads": "The announcement follows recent high-level diplomatic engagement between the two leaders, who previously met on the sidelines of the G7 Summit in Kananaskis (June 2025) and the G20 Summit in Johannesburg (November 2025). India's strategic calculus positions South Korea as indispensable to its [[act-east-policy|Act East Policy]], a cornerstone framework for regional engagement. Conversely, South Korea views India as central to its [[new-southern-policy|New Southern Policy]], indicating reciprocal strategic emphasis. Both nations acknowledge their partnership's significance in fostering 'peace, stability, and security in the Indo-Pacific region,' connecting this bilateral relationship to the broader [[indo-pacific-strategic-competition|Indo-Pacific strategic environment]] where major powers compete for influence.",
+    "signal": "The joint announcement commits both leaders to annual leader-level meetings in either country or on multilateral event margins, establishing an institutional rhythm for strategic coordination. The five-year timeframe (2026-2030) creates multiple decision points where progress will be measured across unspecified 'concrete ways in multiple domains.' Analysts should monitor implementation of this vision across [[india-rok-defense-cooperation|defense and security cooperation]], economic and technology partnerships, and multilateral coordination on regional and global issues. The commitment to 'adding further content' to the partnership suggests additional agreements beyond those detailed in the source text remain under negotiation or forthcoming announcement."
+  },
+  "links": [
+    {
+      "slug": "act-east-policy",
+      "label": "India's Act East Policy",
+      "direction": "sideways",
+      "preview": "India's strategic framework positioning Southeast and East Asian engagement as central to its foreign policy and regional stability objectives."
+    },
+    {
+      "slug": "new-southern-policy",
+      "label": "South Korea's New Southern Policy",
+      "direction": "sideways",
+      "preview": "Seoul's diplomatic strategy emphasizing deepened engagement with Southeast and South Asian nations as core to its pragmatic diplomacy."
+    },
+    {
+      "slug": "indo-pacific-strategic-competition",
+      "label": "Indo-Pacific Regional Security Dynamics",
+      "direction": "sideways",
+      "preview": "The geopolitical context of great power competition and alliance-building in the Indo-Pacific region affecting bilateral partnership priorities."
+    },
+    {
+      "slug": "india-rok-defense-cooperation",
+      "label": "India-South Korea Defense Engagement",
+      "direction": "forward",
+      "preview": "Military-to-military cooperation and defense technology collaboration between New Delhi and Seoul under the expanded strategic partnership framework."
+    },
+    {
+      "slug": "g20-g7-diplomatic-coordination",
+      "label": "Multilateral Summit Diplomacy",
+      "direction": "backward",
+      "preview": "Previous bilateral meetings between Modi and Lee on the margins of G7 and G20 summits that preceded this state visit announcement."
+    },
+    {
+      "slug": "korea-asean-india-triangle",
+      "label": "Korea-ASEAN-India Strategic Triangle",
+      "direction": "sideways",
+      "preview": "Emerging trilateral dynamics involving South Korea, ASEAN nations, and India within the broader Indo-Pacific regional order."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41066/Joint_Strategic_Vision_for_IndiaROK_Special_Strategic_Partnership"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

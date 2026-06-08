@@ -1,0 +1,60 @@
+{
+  "slug": "india-il-india-israel-counter-terrorism-partnership-expands-focu-2026",
+  "countryCode": "il",
+  "date": "2026-06-05",
+  "title": "India-Israel Counter-Terrorism Partnership Expands Focus on Drone and AI Threats",
+  "lede": "India and Israel reaffirmed their counter-terrorism cooperation at their 10th Joint Working Group meeting in New Delhi on February 24, 2026, agreeing to strengthen multilateral efforts against emerging threats including weaponized drones, AI misuse, and terrorist financing.",
+  "category": "defence",
+  "significance": "high",
+  "sections": {
+    "context": "The 10th India-Israel Joint Working Group on Counter Terrorism convened in New Delhi with senior officials Dr. Vinod Bahade (Joint Secretary, Ministry of External Affairs) and Mr. Nadav Eschar (Head of Bureau, Strategic Affairs Division, Ministry of Foreign Affairs) leading delegations. The meeting underscored bilateral cooperation within the India-Israel Strategic Partnership framework, with both nations explicitly condemning terrorism in all forms and reaffirming zero tolerance principles. The timing reflects shared security concerns: both countries referenced specific recent attacks—Israel's October 7, 2023 terror attack and India's Pahalgam, Jammu and Kashmir attack on April 22, 2025—as evidence of the urgent need to hold perpetrators accountable. This backdrop of recent violence against civilian targets in both nations elevated the significance of renewed bilateral commitment.",
+    "threads": "The JWG's emphasis on multilateral cooperation channels, including the United Nations and the Financial Action Task Force (FATF), signals India and Israel's intent to move counter-terrorism efforts beyond bilateral coordination into global governance frameworks. The focus on combating terrorist proxies, supporters, sponsors, financiers and backers aligns with international counter-terrorism architecture where both nations have active roles. The discussion of emerging threats—terrorist recruitment through technology, unmanned aerial vehicles, drones, and artificial intelligence—reflects a broader global shift in how non-state actors operationalize modern tools. This convergence on technological threats suggests India and Israel are coordinating to address gaps in multilateral counter-terrorism capacity where traditional frameworks may lag.",
+    "signal": "The JWG's explicit concern over \"increasing use of unmanned aerial vehicles (UAVs), drones, and AI for terrorist purposes\" indicates this will be a focal point for bilateral intelligence sharing and possibly joint capability development in coming months. Analysts should monitor whether India and Israel announce joint initiatives on drone detection, AI threat assessment, or shared early-warning systems. The commitment to strengthen multilateral cooperation suggests both nations will push for counter-terrorism discussions at FATF and UN forums—watch for statements or proposals emerging from either capital within the next 6-18 months. The emphasis on terrorist financing and cross-border terror networks indicates ongoing intelligence exchanges on [[pahalgam-attack|specific regional threats]] and potential coordination on designations of terrorist organizations and their financial networks."
+  },
+  "links": [
+    {
+      "slug": "india-israel-strategic-partnership",
+      "label": "India-Israel Strategic Partnership framework",
+      "direction": "sideways",
+      "preview": "The broader bilateral relationship encompassing defence, intelligence, and security cooperation beyond counter-terrorism."
+    },
+    {
+      "slug": "pahalgam-attack-april-2025",
+      "label": "Pahalgam terror attack (April 22, 2025)",
+      "direction": "backward",
+      "preview": "The specific terrorist incident in Jammu and Kashmir that prompted India-Israel counter-terrorism response."
+    },
+    {
+      "slug": "fatf-counter-terrorism-financing",
+      "label": "FATF counter-terrorism financing initiatives",
+      "direction": "sideways",
+      "preview": "Multilateral framework addressing terrorist financing that India and Israel committed to strengthening cooperation within."
+    },
+    {
+      "slug": "drone-ai-terrorism-emerging-threats",
+      "label": "Emerging drone and AI threats in terrorism",
+      "direction": "forward",
+      "preview": "The technological frontier identified by both nations as requiring urgent joint response in coming months."
+    },
+    {
+      "slug": "cross-border-terrorism-south-asia",
+      "label": "Cross-border terrorism in South Asia",
+      "direction": "sideways",
+      "preview": "Regional terrorism dynamics underlying India's counter-terrorism priorities and bilateral partnerships."
+    },
+    {
+      "slug": "un-counter-terrorism-resolutions",
+      "label": "UN counter-terrorism cooperation platforms",
+      "direction": "sideways",
+      "preview": "Multilateral UN frameworks where India and Israel committed to renewed coordination efforts."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40818/Joint_Statement_of_the_10th_Meeting_of_the_IndiaIsrael_Joint_Working_Group_JWG_on_Counter_Terrorism_CT"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

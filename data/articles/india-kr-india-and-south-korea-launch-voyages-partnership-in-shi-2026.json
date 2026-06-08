@@ -1,0 +1,54 @@
+{
+  "slug": "india-kr-india-and-south-korea-launch-voyages-partnership-in-shi-2026",
+  "countryCode": "kr",
+  "date": "2026-06-05",
+  "title": "India and South Korea Launch VOYAGES Partnership in Shipbuilding and Maritime Logistics",
+  "lede": "India and South Korea have established a comprehensive framework for cooperation in shipbuilding, shipping, and maritime logistics, with Seoul positioned as a technical anchor for India's ambitious Maritime Amrit Kaal 2047 Vision.",
+  "category": "economic",
+  "significance": "high",
+  "sections": {
+    "context": "The partnership framework, formalized during South Korean President Lee Jae Myung's state visit to India on 20 April 2026, reflects India's recognition that maritime industries are critical to the nation's security and prosperity amid rapid economic growth and internationalization. Both countries acknowledge their shared maritime traditions and complementary strengths, with South Korea possessing leading shipbuilding capabilities that align with India's strategic requirements. India has invited South Korean shipbuilders to serve as technical and strategic anchors for large-scale greenfield shipbuilding clusters, with involvement in design, production engineering, advanced manufacturing, quality and safety frameworks, and operations. The Government of India's Shipbuilding Development Scheme and state-level incentives provide the financial architecture to attract this participation.",
+    "threads": "The VOYAGES framework represents a practical channelization of the existing India-ROK Special Strategic Partnership beyond diplomatic statements toward concrete economic value creation. The initiative connects to India's broader infrastructure modernization agenda and its emphasis on maritime sector development as a pillar of national development. South Korea's participation signals Seoul's strategic interest in deepening engagement with India beyond traditional defense and technology cooperation, leveraging its industrial expertise to strengthen bilateral ties. The involvement of Korean industries in Indian shipbuilding clusters creates opportunities for technology transfer and skill development while supporting Seoul's economic interests in accessing India's growing maritime market.",
+    "signal": "Analysts should monitor the pace and scale of Korean shipbuilder participation in India's greenfield clusters, as this will indicate the depth of Seoul's commitment and the viability of the framework. The success of this partnership hinges on whether Korean companies, as technical anchors, effectively transfer advanced manufacturing capabilities and whether Indian entities absorb these technologies for indigenous shipbuilding capacity. Watch for announcements regarding specific project locations, investment commitments, and timeline for cluster operationalization, as these will signal movement from framework agreement to implementation. The business sector's participation level—particularly Korean conglomerates' involvement—will determine whether the partnership generates the anticipated economic returns and strategic benefits for both nations."
+  },
+  "links": [
+    {
+      "slug": "maritime-amrit-kaal-2047",
+      "label": "India's Maritime Amrit Kaal 2047 Vision",
+      "direction": "sideways",
+      "preview": "India's long-term maritime development strategy that underpins the VOYAGES partnership framework."
+    },
+    {
+      "slug": "india-rok-special-strategic-partnership",
+      "label": "India-ROK Special Strategic Partnership",
+      "direction": "sideways",
+      "preview": "The overarching bilateral framework within which shipbuilding cooperation is being channeled for practical economic benefits."
+    },
+    {
+      "slug": "shipbuilding-development-scheme",
+      "label": "Government of India's Shipbuilding Development Scheme",
+      "direction": "sideways",
+      "preview": "India's financial incentive framework designed to attract foreign technical expertise and investment in domestic shipbuilding capacity."
+    },
+    {
+      "slug": "lee-jae-myung-delhi-visit-2026",
+      "label": "Lee Jae Myung's April 2026 State Visit to India",
+      "direction": "backward",
+      "preview": "The diplomatic occasion during which Prime Ministers Modi and Lee formalized the comprehensive shipbuilding and maritime logistics partnership."
+    },
+    {
+      "slug": "korean-shipbuilding-industry-expansion",
+      "label": "Korean Shipbuilding Industry Expansion into Asia",
+      "direction": "forward",
+      "preview": "South Korean shipbuilders' strategic positioning as technical anchors in Indian maritime clusters signals broader Asian market consolidation strategies."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41065/IndiaROK_Comprehensive_Framework_for_Partnership_in_Shipbuilding_Shipping_and_Maritime_Logistics"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

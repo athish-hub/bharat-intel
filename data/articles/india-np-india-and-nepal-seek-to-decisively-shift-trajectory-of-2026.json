@@ -1,0 +1,60 @@
+{
+  "slug": "india-np-india-and-nepal-seek-to-decisively-shift-trajectory-of-2026",
+  "countryCode": "np",
+  "date": "2026-06-08",
+  "title": "India and Nepal Seek to 'Decisively Shift Trajectory' of Bilateral Relations",
+  "lede": "External Affairs Minister S. Jaishankar met Nepal's Foreign Minister Shisir Khanal on June 6, 2026, signalling New Delhi's intention to expand India-Nepal cooperation into emerging domains including startups, AI, and renewable energy.",
+  "category": "diplomatic",
+  "significance": "medium",
+  "sections": {
+    "context": "The meeting between EAM Jaishankar and Foreign Minister Khanal marks a diplomatic initiative to deepen India-Nepal ties at a moment when both governments appear aligned on development priorities. Jaishankar explicitly referenced Khanal's government as having 'strong complementarities' with India's neighbourhood initiatives, suggesting institutional-level coordination beyond traditional bilateral frameworks. The timing comes approximately two months after Jaishankar and Khanal last met in Mauritius, indicating sustained high-level engagement. Jaishankar also noted the recent visit by Rabi Lamichhane, President of Nepal's ruling party, as evidence of the 'importance accorded to this relationship by both sides,' framing current diplomatic momentum as a continuation of party-to-party and state-to-state commitment.",
+    "threads": "The meeting occurs against the backdrop of India's broader neighbourhood strategy, with Jaishankar explicitly linking Nepal engagement to India's regional initiatives. Notably, Jaishankar highlighted India's role in ensuring 'uninterrupted fuel supplies to Nepal' during the ongoing West Asia crisis, positioning bilateral cooperation within the context of broader geopolitical volatility and energy security concerns. The emphasis on newer domains—startups, AI, information technology, and renewable energy—signals India's intent to modernize the bilateral relationship beyond traditional sectors (trade, commerce, investments, energy cooperation, education). This pivot aligns with India's domestic focus on technology-driven development and clean energy transitions.",
+    "signal": "Analysts should monitor whether Nepal's government formalizes cooperation frameworks in the identified emerging sectors (AI, startups, renewable energy) through bilateral agreements or MOUs in the coming 6-18 months. The language of 'decisively shift the trajectory' suggests New Delhi views incremental progress as insufficient and may propose structural changes to bilateral mechanisms. Watch for concrete outcomes from this meeting—whether specific joint initiatives are announced and whether India's commitment to fuel supply stability translates into long-term energy cooperation agreements. The extent to which Khanal's government prioritizes these new domains relative to traditional concerns (border security, cross-border connectivity, water resources) will indicate whether India's vision for elevated ties gains traction in Kathmandu."
+  },
+  "links": [
+    {
+      "slug": "india-nepal-fuel-supply-west-asia",
+      "label": "India's role in ensuring Nepal fuel security during Middle East crisis",
+      "direction": "sideways",
+      "preview": "India has maintained uninterrupted fuel supplies to Nepal amid the ongoing West Asia crisis, demonstrating bilateral commitment during regional instability."
+    },
+    {
+      "slug": "rabi-lamichhane-nepal-party-visit",
+      "label": "Recent visit by Nepal ruling party president Rabi Lamichhane",
+      "direction": "backward",
+      "preview": "The visit by Rabi Lamichhane, President of Nepal's ruling party, was cited as evidence of the importance both governments accord to bilateral relations."
+    },
+    {
+      "slug": "india-neighbourhood-strategy-cooperation",
+      "label": "India's broader neighbourhood cooperation strategy",
+      "direction": "sideways",
+      "preview": "Jaishankar emphasized that Nepal's government objectives show strong complementarities with India's neighbourhood initiatives."
+    },
+    {
+      "slug": "india-nepal-emerging-tech-cooperation",
+      "label": "Expanding India-Nepal ties in AI, startups, and renewable energy",
+      "direction": "forward",
+      "preview": "India and Nepal are positioned to launch cooperation in emerging domains including artificial intelligence, startups, information technology, and renewable energy sectors."
+    },
+    {
+      "slug": "india-nepal-open-border-security",
+      "label": "Border security cooperation along India-Nepal frontier",
+      "direction": "sideways",
+      "preview": "India and Nepal collaborate closely to maintain security along their long and uniquely open border through coordinated efforts."
+    },
+    {
+      "slug": "india-nepal-people-to-people-ties",
+      "label": "Cultural and people-to-people foundations of India-Nepal relations",
+      "direction": "backward",
+      "preview": "India-Nepal relations are anchored by vibrant people-to-people ties, cross-border connections, and shared cultural and religious traditions."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Speech/Statement",
+      "url": "https://www.mea.gov.in/speeches-statements?dtl/41273/Opening_remarks_by_EAM_Dr_S_Jaishankar_during_his_meeting_with_Foreign_Minister_Shisir_Khanal_of_Nepal_June_06_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
