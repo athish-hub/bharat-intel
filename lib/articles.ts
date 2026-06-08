@@ -87,23 +87,31 @@ export function getCountriesWithArticles(): string[] {
 
 // ─── Search index ─────────────────────────────────────────────────────────────
 
-/** Lightweight search index entry (excludes body prose to keep payload small) */
 export interface SearchEntry {
   slug: string;
   title: string;
   lede: string;
+  body: string;   // flattened article sections for full-text search
   countryCode: string;
+  country: string; // country name for searching "India Russia" etc
   date: string;
   category: EventCategory;
 }
 
 export function buildSearchIndex(): SearchEntry[] {
-  return loadAllArticles({ generated: true }).map(({ slug, title, lede, countryCode, date, category }) => ({
-    slug,
-    title,
-    lede,
-    countryCode,
-    date,
-    category,
+  const { COUNTRIES_BY_CODE } = require("./countries");
+  return loadAllArticles({ generated: true }).map((a) => ({
+    slug: a.slug,
+    title: a.title,
+    lede: a.lede,
+    body: [a.sections?.context, a.sections?.threads, a.sections?.signal]
+      .filter(Boolean)
+      .join(" ")
+      .replace(/\[\[[^\]]+\]\]/g, "") // strip [[slug|label]] syntax
+      .slice(0, 2000),
+    countryCode: a.countryCode,
+    country: COUNTRIES_BY_CODE[a.countryCode]?.name ?? a.countryCode,
+    date: a.date,
+    category: a.category,
   }));
 }
