@@ -1,0 +1,48 @@
+{
+  "slug": "india-ve-venezuelas-acting-president-delcy-rodriguez-visits-indi-2026",
+  "countryCode": "ve",
+  "date": "2026-06-08",
+  "title": "Venezuela's Acting President Delcy Rodriguez visits India with high-level ministerial delegation",
+  "lede": "Acting President of Venezuela Delcy Rodriguez conducted a four-day working visit to India from June 3-6, 2026, accompanied by a large ministerial delegation spanning foreign affairs, finance, economy, science and technology, and transportation sectors.",
+  "category": "diplomatic",
+  "significance": "medium",
+  "sections": {
+    "context": "Acting President Delcy Rodriguez of Venezuela undertook a working visit to India from June 3 to June 6, 2026, according to an official briefing by India's Ministry of External Affairs on June 4, 2026. The visit was characterized by the presence of a substantial ministerial delegation, indicating a comprehensive engagement across multiple policy domains. The delegation's composition—including the Ministers of Foreign Affairs, Communication and Information, Economy and Finance, Science and Technology, and Transportation—suggests Venezuela sought to address bilateral cooperation across economic, technological, and infrastructural dimensions. The designation of this visit as a 'working visit' by India's MEA indicates a focus on substantive discussions rather than ceremonial engagement.",
+    "threads": "The high-level nature of Venezuela's delegation reflects efforts to deepen bilateral engagement with India across multiple sectors. The inclusion of ministers responsible for economy, finance, and science and technology indicates Venezuela's interest in exploring cooperation in economic partnerships and technological collaboration with India. The participation of the Minister of Communication and Information alongside economic and technological portfolios suggests Venezuela may be addressing both institutional development and information exchange dimensions of the bilateral relationship. This multi-sectoral approach reflects broader patterns of South-South cooperation between developing nations.",
+    "signal": "Analysts should monitor the outcomes and joint statements emerging from this visit, particularly regarding any announced bilateral agreements or frameworks in trade, investment, or technology transfer. The composition of Venezuela's delegation suggests potential follow-up mechanisms may be established in economic cooperation, which would be indicated in subsequent official statements or bilateral documents. The scale and breadth of ministerial participation should be assessed against future bilateral engagement patterns to determine whether this represents a sustained deepening of India-Venezuela relations or a one-time high-level exchange."
+  },
+  "links": [
+    {
+      "slug": "venezuela-india-relations-overview",
+      "label": "India-Venezuela bilateral relations framework",
+      "direction": "sideways",
+      "preview": "Background on existing bilateral ties and historical cooperation patterns between India and Venezuela"
+    },
+    {
+      "slug": "south-south-cooperation-developing-nations",
+      "label": "South-South cooperation among developing economies",
+      "direction": "sideways",
+      "preview": "Broader context of cooperation between developing nations in trade, technology, and economic partnerships"
+    },
+    {
+      "slug": "venezuela-economic-diplomacy-2026",
+      "label": "Venezuela's economic diplomacy initiatives",
+      "direction": "forward",
+      "preview": "Track Venezuela's diplomatic outreach efforts and bilateral economic engagements in 2026"
+    },
+    {
+      "slug": "india-mea-briefing-procedures",
+      "label": "India MEA official briefing protocols",
+      "direction": "backward",
+      "preview": "Standard procedures for official MEA briefings on high-level diplomatic visits"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Media Briefing",
+      "url": "https://www.mea.gov.in/media-briefings?dtl/41264/Transcript_of_Special_Briefing_by_MEA_on_the_visit_of_Acting_President_of_Venezuela_June_04_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
