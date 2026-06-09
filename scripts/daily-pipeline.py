@@ -295,7 +295,7 @@ def heuristic_classify(title: str, snippet: str) -> dict:
 
 # ─── Article generation (reuses generate-articles logic inline) ───────────────
 
-def generate_article_from_event(event: dict, country_code: str) -> Optional[dict]:
+def generate_article_from_event(event: dict, country_code: str, relevant_slugs: Optional[list] = None) -> Optional[dict]:
     """Generate a full article for a freshly-scraped event."""
     api_key = os.getenv("ANTHROPIC_API_KEY")
     if not api_key:
@@ -307,6 +307,19 @@ def generate_article_from_event(event: dict, country_code: str) -> Optional[dict
 
         country_name = COUNTRY_NAMES.get(country_code, country_code.upper())
         source_text = event.get("snippet", "")
+
+        # Build slug reference list for grounded linking
+        slug_ref = ""
+        if relevant_slugs:
+            slug_lines = "\n".join(
+                f"  - {s['slug']} | {s['title'][:60]}"
+                for s in relevant_slugs
+            )
+            slug_ref = f"""
+EXISTING ARTICLES YOU CAN LINK TO (prefer these over invented slugs):
+{slug_lines}
+"""
+
         prompt = f"""You are an intelligence analyst writing for BharatIntel, India's foreign policy intelligence platform.
 
 Write a high-quality intelligence article based STRICTLY on the official source text below. Do not invent facts not present in the source. Write ENTIRELY in English.
@@ -316,8 +329,9 @@ Country: {country_name} ({country_code})
 Date: {event['date']}
 Category: {event.get('category', 'diplomatic')}
 Official source text:
-{source_text[:2500]}
+{source_text[:1500]}
 --- END SOURCE ---
+{slug_ref}
 
 Write JSON (no markdown fences). ALL fields in English:
 {{
@@ -337,12 +351,14 @@ Rules:
 - Every claim must be grounded in the source text
 - 4-8 [[slug|label]] links across all sections
 - backward = historical context, sideways = related current story, forward = future signal
+- IMPORTANT: use slugs from the EXISTING ARTICLES list above wherever possible — these create real links
+- You may invent a slug only if no existing article fits
 - No invented facts, no hallucinated statistics
 - Every word in English"""
 
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=3000,
+            max_tokens=4096,
             messages=[{"role": "user", "content": prompt}],
         )
         raw = re.sub(r"^```(?:json)?\s*|\s*```$", "", msg.content[0].text.strip())
@@ -374,6 +390,66 @@ Rules:
     except Exception as e:
         log.error(f"Article gen failed: {e}")
         return None
+
+
+# ─── Slug relevance ───────────────────────────────────────────────────────────
+
+def title_fingerprint(title: str) -> str:
+    """Reduce a title to key words for duplicate detection."""
+    stopwords = {"india", "and", "the", "of", "to", "for", "in", "on", "a", "an",
+                 "visit", "visits", "bilateral", "meeting", "india's", "with", "at"}
+    words = re.sub(r"[^a-z0-9\s]", "", title.lower()).split()
+    return " ".join(w for w in words if w not in stopwords and len(w) > 2)
+
+
+def is_duplicate(title: str, country_code: str, existing_slugs: list[dict]) -> bool:
+    """Return True if a very similar article already exists for the same country."""
+    fp = set(title_fingerprint(title).split())
+    if len(fp) < 3:
+        return False
+    for s in existing_slugs:
+        if s["country"] != country_code:
+            continue
+        existing_fp = set(title_fingerprint(s["title"]).split())
+        if len(existing_fp) < 3:
+            continue
+        overlap = len(fp & existing_fp) / max(len(fp), len(existing_fp))
+        if overlap > 0.5:
+            return True
+    return False
+
+
+def load_existing_slugs() -> list[dict]:
+    """Load all existing article slugs with their country/category metadata."""
+    slugs = []
+    for f in ARTICLES_DIR.glob("*.json"):
+        try:
+            with open(f, encoding="utf-8") as fh:
+                data = json.load(fh)
+            slugs.append({
+                "slug": data.get("slug", f.stem),
+                "title": data.get("title", ""),
+                "country": data.get("countryCode", ""),
+                "category": data.get("category", ""),
+            })
+        except Exception:
+            pass
+    return slugs
+
+
+def find_relevant_slugs(all_slugs: list[dict], country_code: str, category: str, n: int = 15) -> list[dict]:
+    """Return the n most relevant existing slugs for linking."""
+    # Score: same country = 3pts, same category = 2pts, else 0
+    scored = []
+    for s in all_slugs:
+        score = 0
+        if s["country"] == country_code:
+            score += 3
+        if s["category"] == category:
+            score += 2
+        scored.append((score, s))
+    scored.sort(key=lambda x: -x[0])
+    return [s for _, s in scored[:n] if scored[0][0] > 0 or len(scored) <= n]
 
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
@@ -425,6 +501,10 @@ def run():
         log.info("Nothing to process.")
         return
 
+    # Load existing slugs once for grounded linking
+    all_slugs = load_existing_slugs()
+    log.info(f"Loaded {len(all_slugs)} existing slugs for link grounding")
+
     total_articles = 0
     for item in raw:
         # Fetch full article text — critical for quality
@@ -445,9 +525,15 @@ def run():
         item["significance"] = cl.get("significance", "medium")
         item["description"] = cl.get("description", item["snippet"][:300])
 
-        # Generate article
+        # Skip if a very similar article already exists
+        if is_duplicate(item["title"], country_code, all_slugs):
+            log.info(f"  Skipping duplicate: {item['title'][:60]}")
+            continue
+
+        # Generate article with relevant slugs for grounded linking
+        relevant_slugs = find_relevant_slugs(all_slugs, country_code, item["category"])
         log.info(f"Generating article: [{country_code}] {item['title'][:55]}…")
-        article = generate_article_from_event(item, country_code)
+        article = generate_article_from_event(item, country_code, relevant_slugs)
         if article:
             out_path = ARTICLES_DIR / f"{article['slug']}.json"
             if not out_path.exists():
