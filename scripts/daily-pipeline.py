@@ -454,8 +454,47 @@ def find_relevant_slugs(all_slugs: list[dict], country_code: str, category: str,
 
 # ─── Main ─────────────────────────────────────────────────────────────────────
 
-def fetch_article_text(url: str) -> str:
-    """Fetch full article body from a JS-rendered MEA/PIB page using Playwright."""
+DATE_PATTERNS = [
+    # "May 20, 2026" / "June 4, 2026"
+    r'\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2}),?\s+(20\d{2})\b',
+    # "20 May 2026" / "4 June 2026"
+    r'\b(\d{1,2})\s+(January|February|March|April|May|June|July|August|September|October|November|December)\s+(20\d{2})\b',
+    # "2026-05-20"
+    r'\b(20\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])\b',
+]
+
+MONTHS = {"january":1,"february":2,"march":3,"april":4,"may":5,"june":6,
+          "july":7,"august":8,"september":9,"october":10,"november":11,"december":12}
+
+def extract_date_from_text(text: str) -> Optional[str]:
+    """Try to find the event date in MEA article text. Returns YYYY-MM-DD or None."""
+    for pattern in DATE_PATTERNS:
+        m = re.search(pattern, text, re.IGNORECASE)
+        if m:
+            g = m.groups()
+            try:
+                if len(g) == 3:
+                    if g[0].isdigit() and len(g[0]) == 4:
+                        # ISO format: YYYY-MM-DD
+                        return f"{g[0]}-{g[1]:0>2}-{g[2]:0>2}"
+                    elif g[1].isdigit():
+                        # "20 May 2026"
+                        month = MONTHS.get(g[1].lower())
+                        if month:
+                            return f"{g[2]}-{month:02d}-{int(g[0]):02d}"
+                    else:
+                        # "May 20, 2026"
+                        month = MONTHS.get(g[0].lower())
+                        if month:
+                            return f"{g[2]}-{month:02d}-{int(g[1]):02d}"
+            except Exception:
+                continue
+    return None
+
+
+def fetch_article_text(url: str) -> tuple[str, Optional[str]]:
+    """Fetch full article body and publication date from a JS-rendered MEA/PIB page.
+    Returns (text, date_str) where date_str is YYYY-MM-DD or None."""
     try:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
@@ -463,7 +502,6 @@ def fetch_article_text(url: str) -> str:
             page = browser.new_page(extra_http_headers=HEADERS)
             page.goto(url, wait_until="networkidle", timeout=30000)
             page.wait_for_timeout(2000)
-            # MEA article body is usually in .article-content, .content, or <p> tags
             text = ""
             for selector in [".article-content", ".content-area", "#content", "article", "main"]:
                 el = page.query_selector(selector)
@@ -471,17 +509,19 @@ def fetch_article_text(url: str) -> str:
                     text = el.inner_text()
                     break
             if not text:
-                # Fallback: grab all paragraph text
                 paras = page.query_selector_all("p")
                 text = " ".join(
                     p.inner_text().strip() for p in paras
                     if len(p.inner_text().strip()) > 60
                 )
+            # Try to extract date from page
+            full_page_text = page.inner_text("body") if not text else text
+            article_date = extract_date_from_text(full_page_text[:2000])
             browser.close()
-            return text[:3000].strip()
+            return text[:3000].strip(), article_date
     except Exception as e:
         log.warning(f"Failed to fetch article text from {url}: {e}")
-        return ""
+        return "", None
 
 
 def run():
@@ -507,13 +547,18 @@ def run():
 
     total_articles = 0
     for item in raw:
-        # Fetch full article text — critical for quality
+        # Fetch full article text + extract actual event date
         if len(item.get("snippet", "")) < 200 and item.get("url"):
             log.info(f"  Fetching full text: {item['url'][:70]}…")
-            full_text = fetch_article_text(item["url"])
+            full_text, article_date = fetch_article_text(item["url"])
             if full_text:
                 item["snippet"] = full_text
                 log.info(f"  Got {len(full_text)} chars")
+            if article_date:
+                item["date"] = article_date
+                log.info(f"  Date extracted: {article_date}")
+            else:
+                log.info(f"  Date not found in page, keeping scrape date")
 
         cl = classify(item["title"], item["snippet"])
         country_code = cl.get("country_code")
