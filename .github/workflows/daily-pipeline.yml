@@ -1,0 +1,52 @@
+name: BharatIntel Daily Pipeline
+
+on:
+  schedule:
+    - cron: "30 1 * * *"   # 7:00 AM IST daily
+  workflow_dispatch:         # allow manual trigger from GitHub UI
+
+jobs:
+  run-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+
+    permissions:
+      contents: write        # needed to push new articles back to the repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install Python dependencies
+        run: pip install anthropic requests beautifulsoup4 python-dateutil playwright
+
+      - name: Install Playwright browser
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run daily pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python3 scripts/daily-pipeline.py
+
+      - name: Commit and push new articles
+        run: |
+          git config user.name "BharatIntel Bot"
+          git config user.email "athish@pice.one"
+          NEW=$(git status --porcelain data/articles/ | wc -l | tr -d ' ')
+          echo "New article files: $NEW"
+          if [ "$NEW" -gt "0" ]; then
+            git add data/articles/
+            git commit -m "Daily update: $(date '+%Y-%m-%d') — $NEW new article(s)"
+            git push
+            echo "Pushed $NEW new articles. Vercel deploying."
+          else
+            echo "No new articles today."
+          fi
