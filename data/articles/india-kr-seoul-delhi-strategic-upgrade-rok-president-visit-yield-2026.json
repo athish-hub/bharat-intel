@@ -1,0 +1,61 @@
+{
+  "slug": "india-kr-seoul-delhi-strategic-upgrade-rok-president-visit-yield-2026",
+  "countryCode": "kr",
+  "date": "2026-06-10",
+  "title": "Seoul-Delhi Strategic Upgrade: ROK President Visit Yields 11 Cooperation Frameworks",
+  "lede": "South Korea's president visited India in April 2026, producing a raft of bilateral agreements spanning maritime commerce, energy security, semiconductors, and financial cooperation—signaling Seoul's deepening economic and strategic commitment to New Delhi.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The April 19–21 state visit by the President of the Republic of Korea marked a formal elevation of bilateral engagement, yielding a Joint Strategic Vision for the India-ROK Special Strategic Partnership alongside eleven separate MOUs and frameworks. The agreements cluster around three strategic domains: maritime and shipping infrastructure (ports, maritime heritage, and a comprehensive shipbuilding framework); energy resource security; and digital and financial integration (including fintech cooperation between NPCI International and Korean financial clearings institutes). The timing reflects Seoul's broader pivot toward India as both a manufacturing hub and a counterbalance to regional supply-chain vulnerabilities—a strategy that builds on earlier defense procurement partnerships and Seoul's deepening corporate footprint in Indian manufacturing.",
+    "threads": "This visit extends Seoul's multi-year manufacturing bet on India, where Samsung and Hyundai have established significant production capacity. The maritime and shipbuilding framework aligns with New Delhi's broader push for naval modernization and blue-economy development. The energy resource security statement signals convergence on critical mineral supply chains and clean energy—priorities that intersect with India's climate commitments under the Paris framework. Notably, the upgrade to the Comprehensive Economic Partnership Agreement negotiations suggests Seoul is prepared to deepen trade integration, a move that could reshape bilateral commerce from its current $27 billion baseline toward the $50 billion target anchored in earlier diplomatic signaling.",
+    "signal": "Watch the pace and scope of CEPA negotiations over the next 12 months; a successful upgrade would institutionalize preferential access for Korean semiconductors, shipbuilding, and energy sectors in Indian markets. The maritime logistics framework and port cooperation MOU will require infrastructure investment and regulatory harmonization—expect capacity-building initiatives and joint feasibility studies by late 2026. Financial integration via NPCI and Korean clearings institutes depends on RBI approval and local payment system adoption; momentum here will indicate how far Seoul is willing to embed its fintech ecosystem in Indian settlement systems. The Industrial Cooperation Committee MOU may become a venue for managing labor-standards disputes and supply-chain transparency, especially if tensions emerge in steel or SME sectors.",
+    "links": [
+      {
+        "slug": "india-kr-india-korea-partnership-upgrade-27b-trade-to-50b-by-203-2026",
+        "label": "India-Korea Partnership Upgrade: $27B Trade to $50B by 2030",
+        "direction": "sideways",
+        "preview": "Existing article on the bilateral trade trajectory and Seoul's economic integration strategy with New Delhi."
+      },
+      {
+        "slug": "india-kr-india-and-south-korea-launch-voyages-partnership-in-shi-2026",
+        "label": "India and South Korea Launch VOYAGES Partnership in Shipbuilding",
+        "direction": "sideways",
+        "preview": "Covers the maritime and shipbuilding cooperation framework announced during this period."
+      },
+      {
+        "slug": "india-kr-india-and-south-korea-deepen-energy-security-partnershi-2026",
+        "label": "India and South Korea Deepen Energy Security Partnership",
+        "direction": "sideways",
+        "preview": "Unpacks the energy resource security joint statement from the April 2026 visit."
+      },
+      {
+        "slug": "india-kr-india-and-south-korea-forge-climate-partnership-under-p-2026",
+        "label": "India and South Korea Forge Climate Partnership Under Paris",
+        "direction": "sideways",
+        "preview": "Details the sustainability cooperation framework and climate alignment between the two nations."
+      },
+      {
+        "slug": "india-kr-modis-seoul-summit-reframes-india-korea-ties-as-supply-chain-2023",
+        "label": "Modi's Seoul Summit Reframes India-Korea Ties as Supply Chain",
+        "direction": "backward",
+        "preview": "Historical context on how the bilateral relationship shifted toward supply-chain and manufacturing cooperation starting in 2023."
+      },
+      {
+        "slug": "india-kr-seouls-manufacturing-bet-on-india-why-samsung-and-hyundai-ar-2015",
+        "label": "Seoul's Manufacturing Bet on India: Why Samsung and Hyundai",
+        "direction": "backward",
+        "preview": "Long-term background on South Korean corporate investment in Indian manufacturing ecosystems."
+      }
+    ]
+  },
+  "links": [],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41062/List_of_Outcomes_State_Visit_of_President_of_Republic_of_Korea_to_India_April_1921_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

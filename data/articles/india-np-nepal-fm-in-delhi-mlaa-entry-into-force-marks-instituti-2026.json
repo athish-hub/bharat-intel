@@ -1,0 +1,54 @@
+{
+  "slug": "india-np-nepal-fm-in-delhi-mlaa-entry-into-force-marks-instituti-2026",
+  "countryCode": "np",
+  "date": "2026-06-10",
+  "title": "Nepal FM in Delhi: MLAA Entry into Force Marks Institutional Deepening",
+  "lede": "Nepal's Foreign Minister Shisir Khanal visited India in early June 2026, completing bilateral talks on development, connectivity, and energy while securing mutual legal assistance framework activation.",
+  "category": "diplomatic",
+  "significance": "medium",
+  "sections": {
+    "context": "Nepal's Foreign Minister H.E. Mr. Shisir Khanal undertook an official visit to India on 5–6 June 2026 at the invitation of External Affairs Minister Dr. S. Jaishankar. The bilateral talks, held in New Delhi on 6 June, covered the full spectrum of India-Nepal relations: development cooperation, connectivity, trade and transit, energy, and people-to-people ties. The two ministers also exchanged views on regional and multilateral issues of mutual interest. This visit reflects the steady institutionalisation of the bilateral relationship, with both sides expressing satisfaction over progress achieved across diverse sectors and committing to further intensification of cooperation.",
+    "threads": "The visit signals continuity in India's multi-track engagement with Nepal, building on [[india-np-india-and-nepal-seek-to-decisively-shift-trajectory-of-2026|earlier efforts to decisively shift the trajectory of bilateral ties]]. Energy cooperation remains a core pillar—Nepal's hydropower sector has long been a focus of India's regional strategy, as evidenced by [[india-np-nepal-hydropower-pivot-364-mw-export-signals-regional-energ-2022|Nepal's emerging role as a regional hydropower exporter]]. The emphasis on innovation, startups, digital technology, and financial services suggests India is broadening its engagement beyond traditional infrastructure and energy, reflecting [[india-np-indias-financial-corridor-reaches-nepal-upi-launch-signals-n-2024|the expansion of India's financial corridor into Nepal]]. Both ministers welcomed recent initiatives in training and capacity building, underscoring institutional people-to-people deepening.",
+    "signal": "The completion of internal processes for entry into force of the India-Nepal Mutual Legal Assistance Agreement in Criminal Matters (MLAA) is the most concrete outcome. This agreement creates an institutional legal framework that will facilitate cross-border legal cooperation and criminal justice coordination—a marker of trust and institutional maturity in the bilateral relationship. Analysts should monitor: (1) the timeline and procedural details of MLAA ratification by both parliaments; (2) whether joint initiatives in innovation and digital technology translate into substantive collaboration or remain aspirational; (3) progress on connectivity and transit issues, which historically have been sensitive; and (4) energy sector negotiations, particularly any new hydropower agreements or power-sharing arrangements. The commitment to 'intensify efforts' suggests momentum toward a new framework agreement or expanded cooperation architecture within 12–18 months."
+  },
+  "links": [
+    {
+      "slug": "india-np-india-and-nepal-seek-to-decisively-shift-trajectory-of-2026",
+      "label": "India and Nepal Seek to 'Decisively Shift Trajectory' of Bilateral Relations",
+      "direction": "sideways",
+      "preview": "Parallel diplomatic initiative signalling strategic recalibration of India-Nepal partnership in 2026"
+    },
+    {
+      "slug": "india-np-nepal-fms-india-visit-signals-institutional-deepening-a-2026",
+      "label": "Nepal FM's India Visit Signals Institutional Deepening",
+      "direction": "sideways",
+      "preview": "Companion analysis of Khanal's visit emphasising institutional frameworks and legal agreements"
+    },
+    {
+      "slug": "india-np-nepal-hydropower-pivot-364-mw-export-signals-regional-energ-2022",
+      "label": "Nepal's Hydropower Pivot: 364 MW Export Signals Regional Energy Shift",
+      "direction": "backward",
+      "preview": "Historical context on Nepal's emergence as hydropower exporter, central to bilateral energy cooperation"
+    },
+    {
+      "slug": "india-np-indias-financial-corridor-reaches-nepal-upi-launch-signals-n-2024",
+      "label": "India's Financial Corridor Reaches Nepal: UPI Launch Signals New Integration Phase",
+      "direction": "backward",
+      "preview": "Earlier expansion of India's digital financial integration into Nepal, complementing current innovation initiatives"
+    },
+    {
+      "slug": "india-np-india-locks-in-1800-mw-of-nepali-hydropower-the-eastern-grid-2018",
+      "label": "India Locks in 1,800 MW of Nepali Hydropower: The Eastern Grid",
+      "direction": "backward",
+      "preview": "Foundational context on India's long-term hydropower procurement strategy from Nepal"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Press Release",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41272/Visit_of_Minister_for_Foreign_Affairs_of_Nepal_to_India"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

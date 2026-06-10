@@ -1,0 +1,48 @@
+{
+  "slug": "india-kr-india-and-south-korea-anchor-climate-partnership-under-2026",
+  "countryCode": "kr",
+  "date": "2026-06-10",
+  "title": "India and South Korea Anchor Climate Partnership Under Paris Agreement Article 6.2",
+  "lede": "India and South Korea concluded a Memorandum of Cooperation under Article 6.2 of the Paris Agreement, establishing a cooperative framework for climate investment and positioning both nations as environmentally responsible leaders in addressing global sustainability challenges.",
+  "category": "diplomatic",
+  "significance": "medium",
+  "sections": {
+    "context": "On 20 April 2026, India and South Korea issued a joint statement committing to strengthen bilateral cooperation on global sustainability challenges through practical collaboration in climate change, maritime, and Arctic issues. Both nations reaffirmed their commitment to fulfill the 2030 Agenda for Sustainable Development with respect to environment in an integrated manner. The two sides emphasised their support for the rules-based international order and their commitment to the Paris Agreement, recognising what they characterised as the critical importance of enhancing climate action to address an unprecedented climate crisis that threatens the sustainability of humanity and nature. The conclusion of the Memorandum of Cooperation under Article 6.2 of the Paris Agreement represents the operational centerpiece of this commitment, establishing cooperative mechanisms for investment-driven climate mitigation.",
+    "threads": "This climate partnership builds on the broader strategic elevation of India-Korea ties across multiple sectors. [[india-kr-india-korea-partnership-upgrade-27b-trade-to-50b-by-203-2026|India-Korea Partnership Upgrade: $27B Trade to $50B by 2030]] signals a comprehensive bilateral deepening, while [[india-kr-south-korea-elevates-india-partnership-with-maritime-en-2026|South Korea elevates India partnership with maritime, energy]] indicates parallel advancement on energy security and maritime cooperation—domains explicitly mentioned in this sustainability statement. The climate track also reflects the outcomes of high-level presidential engagement, as evidenced in recent summit diplomacy that has reframed India-Korea relations around strategic economic interdependence. Maritime and Arctic cooperation dimensions suggest Seoul and Delhi are positioning themselves within emerging governance frameworks for polar and ocean-based climate challenges.",
+    "signal": "Analysts should monitor implementation of the Article 6.2 MOC over the next 12-18 months, tracking which specific investment projects are negotiated under this cooperative framework and whether they create precedent for carbon credit mechanisms between the two economies. The statement's integration of maritime and Arctic issues warrants attention to India's and South Korea's participation in multilateral Arctic governance discussions and whether bilateral cooperation translates into coordinated diplomatic positioning in international climate forums. Watch for announcements regarding sustainable management of natural resources—particularly shared initiatives on biodiversity, water management, or waste—that would operationalise the 2030 Agenda commitment. The scope and pace of MOC activation will signal whether this partnership remains declaratory or evolves into a model for climate cooperation with other strategic partners."
+  },
+  "links": [
+    {
+      "slug": "india-kr-india-korea-partnership-upgrade-27b-trade-to-50b-by-203-2026",
+      "label": "India-Korea Partnership Upgrade: $27B Trade to $50B by 2030",
+      "direction": "sideways",
+      "preview": "Covers the comprehensive bilateral deepening across trade and investment sectors."
+    },
+    {
+      "slug": "india-kr-south-korea-elevates-india-partnership-with-maritime-en-2026",
+      "label": "South Korea elevates India partnership with maritime, energy",
+      "direction": "sideways",
+      "preview": "Tracks parallel advancement on maritime cooperation and energy security—domains explicitly mentioned in the sustainability statement."
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-forge-climate-partnership-under-p-2026",
+      "label": "India and South Korea Forge Climate Partnership Under Paris",
+      "direction": "sideways",
+      "preview": "Directly related coverage of the climate partnership framework announced in April 2026."
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-deepen-energy-security-partnershi-2026",
+      "label": "India and South Korea Deepen Energy Security Partnership Through",
+      "direction": "sideways",
+      "preview": "Covers energy security cooperation that complements the broader sustainability agenda."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41067/India__Republic_of_Korea_Joint_Statement_on_Cooperation_in_the_field_of_Sustainability"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

@@ -1,0 +1,54 @@
+{
+  "slug": "india-fr-india-and-france-elevate-to-special-global-strategic-pa-2026",
+  "countryCode": "fr",
+  "date": "2026-06-10",
+  "title": "India and France Elevate to 'Special Global Strategic Partnership' Amid AI Summit",
+  "lede": "President Macron's fourth India visit culminates in New Delhi upgrading bilateral relations to 'Special Global Strategic Partnership,' signaling deepened cooperation on innovation, security, and global order.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "President Emmanuel Macron of France arrived in India on 17 February 2026 at the invitation of Prime Minister Narendra Modi, marking his fourth official visit to the country. The three-day visit (17–19 February) included participation in the Artificial Intelligence Impact Summit 2026, where both leaders jointly inaugurated the 2026 India-France Year of Innovation in Mumbai. This elevation of bilateral relations reflects a deliberate strategic choice by both capitals to deepen engagement across multiple domains. The upgrading follows Prime Minister Modi's own visit to France in February 2025, establishing a regular high-level dialogue rhythm between the two leaders.",
+    "threads": "The designation of 'Special Global Strategic Partnership' extends India's existing 25-year Strategic Partnership with France, now marked for its silver anniversary. This move positions the bilateral relationship as a vehicle for addressing global instability and building a rules-based international order—themes increasingly central to India's foreign policy positioning. The focus on innovation and technology reflects both nations' ambitions to compete globally in emerging domains, particularly artificial intelligence, where strategic competition is intensifying. [[india-fr-modis-paris-triumph-how-india-locked-france-into-a-24-year-s_2023|France has consistently positioned itself as a reliable long-term strategic partner]], distinct from more transactional relationships in India's diplomatic portfolio.",
+    "signal": "The framing of the partnership as addressing 'challenges in an increasingly uncertain global environment' warrants close monitoring of India-France coordination on emerging geopolitical flashpoints—particularly regarding European and Indo-Pacific security. The emphasis on 'prosperity and resilience' in their respective economies suggests forthcoming announcements on defence manufacturing, space cooperation, or renewable energy partnerships. The 'Year of Innovation' institutionalization indicates both governments will prioritize regular institutional engagement on technology policy, potentially including cybersecurity, semiconductor supply chains, or AI governance frameworks. Watch for implementation mechanisms—whether this elevation produces new bilateral working groups, summits, or legal instruments beyond the joint statement."
+  },
+  "links": [
+    {
+      "slug": "india-fr-india-and-france-elevate-ties-to-special-global-strateg-2026",
+      "label": "India and France Elevate Ties to 'Special Global Strategic Partnership'",
+      "direction": "sideways",
+      "preview": "Direct coverage of the February 2026 elevation ceremony and joint statement content."
+    },
+    {
+      "slug": "india-fr-president-macrons-fourth-india-visit-opens-new-chapter-2026",
+      "label": "President Macron's Fourth India Visit Opens New Chapter in F",
+      "direction": "sideways",
+      "preview": "Macron's February 2026 visit context and bilateral engagement framework."
+    },
+    {
+      "slug": "india-fr-frances-strategic-bet-on-india-why-macrons-republic-day-visi-2024",
+      "label": "France's Strategic Bet on India: Why Macron's Republic Day Visit",
+      "direction": "backward",
+      "preview": "Historical analysis of France's long-term strategic positioning toward India."
+    },
+    {
+      "slug": "india-fr-modis-paris-triumph-how-india-locked-france-into-a-24-year-s_2023",
+      "label": "Modi's Paris Triumph: How India Locked France Into a 24-Year Strategic Partnership",
+      "direction": "backward",
+      "preview": "Context of the 25-year Strategic Partnership foundation now being elevated."
+    },
+    {
+      "slug": "india-fr-india-and-france-lock-in-defence-manufacturing-partnershipst-2025",
+      "label": "India and France Lock in Defence Manufacturing Partnership",
+      "direction": "forward",
+      "preview": "Likely implementation domain for 'Special Global Strategic Partnership' in security cooperation."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40783/India__France_Joint_Statement_February_17_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

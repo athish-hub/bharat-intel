@@ -1,0 +1,60 @@
+{
+  "slug": "india-br-brazil-india-strategic-partnership-deepens-ten-agreemen-2026",
+  "countryCode": "br",
+  "date": "2026-06-10",
+  "title": "Brazil-India Strategic Partnership Deepens: Ten Agreements Span Critical Minerals to Digital Trade",
+  "lede": "During President Lula's February 2026 state visit to India, the two nations signed ten MOUs covering rare earth minerals, digital partnership, postal cooperation, and manufacturing—while Brazil extended business visas to Indian passport holders for a decade.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "President Luiz Inácio Lula da Silva's four-day state visit to India (February 18–22, 2026) produced a comprehensive institutional framework across ten bilateral agreements, signaling intensified economic and technological integration between the two largest democracies in the Global South. The MoU on cooperation in rare earth minerals and critical minerals anchors India's strategic access to Brazilian resources at a moment when supply-chain resilience has become a foreign policy priority. The establishment of joint frameworks in postal services, MSME entrepreneurship, and mining for steel supply chain reflects New Delhi's effort to lock in complementary economic partnerships beyond commodity extraction. Brazil's unilateral extension of business visas to Indian passport holders from five to ten years—effective February 7, 2026—removes a procedural friction point and signals mutual interest in deeper commercial engagement. The timing coincides with India's broader effort to secure ground-level access to critical mineral sources across the Global South.",
+    "threads": "This visit represents a deepening of the bilateral relationship documented through prior high-level engagement, particularly the Modi-Lula compact that emerged during India's G20 presidency. The digital partnership action plan signals convergence on technology governance and digital trade architecture, mirroring India's recent strategic pivots with other democracies on data sovereignty and technology standards. The INPI-CSIR agreement on a Traditional Knowledge Digital Library reflects India's established playbook for protecting intellectual property in the Global South, consistent with IBSA-framework positioning on development and technology transfer. The new regulatory cooperation between CDSCO and ANVISA in pharmaceutical standards and the educational MOUs between IIMC-UFMG and SRFTI-USP indicate parallel institutional building in governance, media, and cultural domains—extending partnership beyond trade and minerals into soft power and governance capacity.",
+    "signal": "Analysts should monitor the implementation timeline and resource allocation within the rare earth minerals and critical minerals framework over the next 12 months; activation of this MoU would signal whether India can shift from commodity dependence to secured supply arrangements. The digital partnership action plan requires tracking joint working groups and pilot projects—any movement toward interoperable digital standards or data-sharing protocols would indicate deeper tech-policy alignment. The postal and MSME agreements, while narrower in scope, may serve as test cases for institutional cooperation; successful implementation could unlock broader manufacturing and logistics partnerships. Watch for Brazilian policy signals on supply-chain localization in India and vice versa, particularly in steel and pharmaceutical sectors covered by the mining and CDSCO-ANVISA MOUs. The ten-year visa extension should be monitored for uptake among Indian business travelers and whether it correlates with increased bilateral trade flows in the subsequent quarters."
+  },
+  "links": [
+    {
+      "slug": "india-br-india-secures-ground-access-to-brazils-critical-minerals-for-2025",
+      "label": "India Secures Ground Access to Brazil's Critical Minerals",
+      "direction": "backward",
+      "preview": "Prior India-Brazil mineral security framework that set context for 2026 rare earth and critical minerals MoU"
+    },
+    {
+      "slug": "india-br-brazil-india-strategic-partnership-ten-agreements-signa-2026",
+      "label": "Brazil-India Strategic Partnership: Ten Agreements",
+      "direction": "sideways",
+      "preview": "Direct coverage of the February 2026 state visit outcomes and bilateral institutional framework"
+    },
+    {
+      "slug": "india-br-lulas-fifth-india-visit-signals-deepening-brazil-india-2026",
+      "label": "Lula's Fifth India Visit Signals Deepening Strategic Ties",
+      "direction": "sideways",
+      "preview": "Analysis of President Lula's February 2026 state visit and relationship trajectory"
+    },
+    {
+      "slug": "india-br-india-passes-the-g20-baton-modi-lula-compact-signals-shift-t-2023",
+      "label": "Modi-Lula Compact: G20 Baton Handoff",
+      "direction": "backward",
+      "preview": "Historical context for Modi-Lula relationship foundation established during India's G20 presidency"
+    },
+    {
+      "slug": "india-br-the-ibsa-playbook-at-cop26-how-india-and-brazil-locked-in-a-2021",
+      "label": "IBSA Playbook: India-Brazil Coalition Building",
+      "direction": "sideways",
+      "preview": "IBSA framework context for understanding Global South positioning in bilateral technology and development agreements"
+    },
+    {
+      "slug": "india-br-modis-rio-pivot-india-hardens-global-south-bloc-on-minerals-2024",
+      "label": "Modi's Rio Pivot: Critical Minerals Strategy",
+      "direction": "backward",
+      "preview": "Prior India strategy on mineral security in Latin America that frames 2026 rare earth MoU"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40811/List_of_Outcomes_State_Visit_of_the_President_of_Federative_Republic_of_Brazil_to_India_February_1822_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
