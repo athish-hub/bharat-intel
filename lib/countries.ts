@@ -152,6 +152,12 @@ export const COUNTRIES: CountryMeta[] = [
     region: "Asia",
   },
   {
+    code: "vn", numericCode: "704", name: "Vietnam", flag: "🇻🇳",
+    status: "strategic-partner", statusLabel: "Strategic Partner",
+    summary: "One of India's most dynamic Act East partnerships. Vietnam's President To Lam's June 2026 state visit elevated ties to an Enhanced Comprehensive Strategic Partnership. India and Vietnam share concerns about Chinese assertiveness in the South China Sea and collaborate on defence, digital infrastructure, and trade under the ASEAN-India FTA.",
+    region: "Asia",
+  },
+  {
     code: "mm", numericCode: "104", name: "Myanmar", flag: "🇲🇲",
     status: "complex", statusLabel: "Complex",
     summary: "India's only ASEAN land neighbour and a critical node in Act East connectivity. The 2021 military coup created a humanitarian crisis on India's northeastern border and handed China a strategic windfall. India has maintained quiet engagement with the junta while supporting Manipur border security. The India-Myanmar-Thailand trilateral highway is the flagship connectivity project at risk.",
@@ -162,6 +168,30 @@ export const COUNTRIES: CountryMeta[] = [
     status: "partner", statusLabel: "Partner",
     summary: "A long-standing energy and Global South partner now re-emerging in India's strategic calculus. Venezuela holds the world's largest proven oil reserves and India has historically been a significant buyer. Acting President Maduro's June 2026 state visit — the first in decades — signals India's effort to diversify energy sources and reinforce South-South ties outside Western pressure.",
     region: "Americas",
+  },
+  {
+    code: "my", numericCode: "458", name: "Malaysia", flag: "🇲🇾",
+    status: "partner", statusLabel: "Partner",
+    summary: "A key Southeast Asian partner under India's Act East policy. PM Modi's February 2026 visit — his third to Malaysia — elevated ties to a Comprehensive Strategic Partnership. Malaysia is a significant source of palm oil and a growing defence and digital technology partner. The large Tamil diaspora creates a unique people-to-people dimension.",
+    region: "Asia",
+  },
+  {
+    code: "om", numericCode: "512", name: "Oman", flag: "🇴🇲",
+    status: "strategic-partner", statusLabel: "Strategic Partner",
+    summary: "India's oldest Gulf partner and a critical node in the Indian Ocean security architecture. Oman hosts Indian naval access at Duqm port, provides overland connectivity to the Gulf, and is home to over 700,000 Indian workers. PM Modi's 2026 visit marked 70 years of diplomatic ties and deepened defence and energy cooperation.",
+    region: "Middle East",
+  },
+  {
+    code: "kw", numericCode: "414", name: "Kuwait", flag: "🇰🇼",
+    status: "partner", statusLabel: "Partner",
+    summary: "A vital Gulf partner with over 1 million Indians — the largest expat community in Kuwait. India is Kuwait's top trading partner. Remittances exceed $4 billion annually. The relationship is defined by energy security, diaspora welfare, and growing investment ties under Kuwait Vision 2035.",
+    region: "Middle East",
+  },
+  {
+    code: "et", numericCode: "231", name: "Ethiopia", flag: "🇪🇹",
+    status: "partner", statusLabel: "Partner",
+    summary: "A growing Africa partnership anchored by India's development cooperation. Ethiopia is one of Africa's largest economies and a key voice in the African Union. India has provided lines of credit for infrastructure and trains Ethiopian defence personnel. The relationship is part of India's broader India-Africa Forum Summit framework.",
+    region: "Africa",
   },
   {
     code: "cy", numericCode: "196", name: "Cyprus", flag: "🇨🇾",
