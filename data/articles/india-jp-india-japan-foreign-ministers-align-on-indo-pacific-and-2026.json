@@ -1,0 +1,54 @@
+{
+  "slug": "india-jp-india-japan-foreign-ministers-align-on-indo-pacific-and-2026",
+  "countryCode": "jp",
+  "date": "2026-06-11",
+  "title": "India-Japan Foreign Ministers Align on Indo-Pacific and Economic Security Amid Regional Tensions",
+  "lede": "External Affairs Minister S. Jaishankar welcomed Japanese Foreign Minister Toshimitsu Motegi to New Delhi on May 25, 2026, to coordinate on Quad strategy, the Free and Open Indo-Pacific, and shared concerns over West Asian instability and economic security.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "FM Motegi's visit to New Delhi represents the third high-level bilateral engagement between India and Japan in five months, underscoring the diplomatic intensity of their Special Strategic and Global Partnership. Jaishankar noted prior meetings in France in March 2026 and in Delhi earlier in the year, signaling sustained momentum in bilateral coordination. The timing coincides with a scheduled Quad meeting to follow the bilateral discussions, indicating Japan's role as a linchpin in India's Indo-Pacific strategy. Both nations share structural vulnerabilities as energy-importing and major trading powers with significant maritime interests, making regional stability and supply-chain resilience urgent shared concerns. The emphasis on West Asian developments reflects immediate geopolitical pressures affecting both economies.",
+    "threads": "Japan has been central to India's pivot toward institutionalizing the Quad as a strategic mechanism beyond dialogue, as reflected in previous summits and strategic upgrades. The focus on economic security echoes broader efforts by major democracies to de-risk supply chains and technology partnerships, a theme Japan has previously emphasized in its infrastructure and technology collaboration with India. The bilateral framing of energy and trade vulnerabilities connects to Japan's substantial infrastructure and climate investments in India, demonstrating how economic and strategic interests are increasingly intertwined. The Free and Open Indo-Pacific agenda represents the core of India-Japan strategic alignment, anchoring their partnership within a regional architecture that both nations have championed.",
+    "signal": "Analysts should monitor outcomes from the Quad meeting immediately following this bilateral, particularly any joint statements on regional security and economic resilience. The next 12-18 months will test whether India and Japan translate these coordination discussions into concrete mechanisms for economic security—particularly in critical sectors such as semiconductors, renewable energy, and supply-chain diversification. Watch for Japanese policy announcements on energy security cooperation with India and how the two nations respond to further West Asian developments. The frequency and substance of ministerial engagements at this level suggest India-Japan ties are entering a more operational phase beyond strategic declarations."
+  },
+  "links": [
+    {
+      "slug": "india-jp-india-japan-foreign-ministers-meet-to-advance-quad-and-2026",
+      "label": "India-Japan Foreign Ministers Meet to Advance Quad",
+      "direction": "sideways",
+      "preview": "Contemporaneous bilateral and multilateral coordination between India and Japan on Quad framework advancement"
+    },
+    {
+      "slug": "india-jp-india-and-japan-lock-in-semiconductor-fortress-a-counter-to-2024",
+      "label": "India and Japan Lock in Semiconductor Fortress",
+      "direction": "forward",
+      "preview": "Economic security partnership including critical technology sectors aligns with FM Jaishankar's emphasis on economic security concerns"
+    },
+    {
+      "slug": "india-jp-japans-5-trillion-bet-on-indias-energy-transition-signals-st-2022",
+      "label": "Japan's Energy Transition Investment in India",
+      "direction": "backward",
+      "preview": "Historical context of Japan's substantial economic commitments to India's energy sector, relevant to current energy security discussions"
+    },
+    {
+      "slug": "india-jp-quad-returns-japan-summit-signals-shift-from-dialogue-to-str-2020",
+      "label": "Quad Returns: Japan Summit Signals Strategic Shift",
+      "direction": "backward",
+      "preview": "Evolution of Quad from dialogue mechanism to strategic coordination, providing context for current multilateral meeting"
+    },
+    {
+      "slug": "india-jp-modis-hiroshima-signal-india-positions-itself-as-responsible-2023",
+      "label": "Modi's Hiroshima Signal on Responsible Strategy",
+      "direction": "backward",
+      "preview": "Historical demonstration of India-Japan strategic alignment on global governance and responsible power behavior"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Speech/Statement",
+      "url": "https://www.mea.gov.in/speeches-statements?dtl/41230/Opening_remarks_by_EAM_Dr_S_Jaishankar_during_his_meeting_with_FM_Toshimitsu_Motegi_of_Japan_May_25_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
