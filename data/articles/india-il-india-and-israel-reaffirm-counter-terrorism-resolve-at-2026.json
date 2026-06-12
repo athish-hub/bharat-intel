@@ -1,0 +1,48 @@
+{
+  "slug": "india-il-india-and-israel-reaffirm-counter-terrorism-resolve-at-2026",
+  "countryCode": "il",
+  "date": "2026-06-12",
+  "title": "India and Israel Reaffirm Counter-Terrorism Resolve at 10th JWG Meeting",
+  "lede": "India and Israel held their 10th Joint Working Group meeting on counter-terrorism in New Delhi on February 24, 2026, reaffirming zero tolerance toward terrorism and condemning recent attacks in both nations.",
+  "category": "defence",
+  "significance": "high",
+  "sections": {
+    "context": "The 10th meeting of the India-Israel Joint Working Group on Counter Terrorism took place in New Delhi on February 24, 2026, led by Dr. Vinod Bahade, Joint Secretary (Counter Terrorism) at India's Ministry of External Affairs, and Mr. Nadav Eschar, Head of Bureau at Israel's Strategic Affairs Division. The meeting underscored bilateral cooperation in countering terrorism as a core pillar of the India-Israel Strategic Partnership. Both delegations explicitly condemned terrorism in all forms, including cross-border terrorism, and reaffirmed their commitment to zero tolerance toward terrorist acts. The timing reflects heightened concern following specific incidents: the October 7, 2023 terror attack in Israel and the April 22, 2025 terrorist attack in Pahalgam, Jammu and Kashmir. These events have prompted both nations to emphasize accountability for perpetrators and the urgent need for sustained counter-terrorism cooperation.",
+    "threads": "This counter-terrorism engagement sits within a broader deepening of India-Israel strategic relations. [[india-il-india-israel-counter-terrorism-partnership-reinforces-s-2026|India-Israel Counter-Terrorism Partnership Reinforces Strategic]] ties across multiple domains beyond security. The JWG meeting also reflects [[india-il-pm-modis-israel-state-visit-signals-sustained-west-asia-2026|PM Modi's Israel State Visit Signals Sustained West Asia Engagement]], which has elevated bilateral relations to unprecedented levels in 2026. Counter-terrorism cooperation complements broader strategic agreements spanning defense, technology, and diplomatic coordination that have characterized recent high-level exchanges. The focus on joint accountability and cross-border terrorism resonates with India's own security imperatives in Jammu and Kashmir, where terrorist attacks remain a persistent threat.",
+    "signal": "Analysts should monitor whether the 10th JWG meeting translates into concrete operational mechanisms—intelligence sharing protocols, joint training exercises, or coordinated counter-terrorism operations. The emphasis on \"confronting terrorism requires conce[ntrated effort]\" (text truncated in source) suggests a pivot toward more intensive joint action frameworks. Watch for announcements of expanded operational cooperation or new bilateral counter-terrorism initiatives in the 6-18 month window. Additionally, track how both nations operationalize accountability measures against perpetrators, particularly regarding cross-border terrorism networks. [[india-il-india-israel-counter-terrorism-partnership-expands-focu-2026|India-Israel Counter-Terrorism Partnership Expands Focus]] on operational mechanisms will indicate whether the JWG has matured beyond symbolic affirmation into substantive capability-building."
+  },
+  "links": [
+    {
+      "slug": "india-il-india-israel-counter-terrorism-partnership-reinforces-s-2026",
+      "label": "India-Israel Counter-Terrorism Partnership Reinforces Strategic Ties",
+      "direction": "sideways",
+      "preview": "Examines the counter-terrorism partnership as part of broader India-Israel strategic coordination"
+    },
+    {
+      "slug": "india-il-pm-modis-israel-state-visit-signals-sustained-west-asia-2026",
+      "label": "PM Modi's Israel State Visit Signals Sustained West Asia Engagement",
+      "direction": "backward",
+      "preview": "Places the JWG meeting within the context of elevated bilateral relations following high-level visits"
+    },
+    {
+      "slug": "india-il-india-israel-counter-terrorism-partnership-expands-focu-2026",
+      "label": "India-Israel Counter-Terrorism Partnership Expands Focus",
+      "direction": "forward",
+      "preview": "Tracks future developments in operational counter-terrorism cooperation mechanisms"
+    },
+    {
+      "slug": "india-il-india-israel-strategic-partnership-how-delhi-shifted-from-ba-2018",
+      "label": "India-Israel Strategic Partnership: How Delhi Shifted from Balancing Act",
+      "direction": "backward",
+      "preview": "Provides historical context for India's strategic reorientation toward Israel on security matters"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40818/Joint_Statement_of_the_10th_Meeting_of_the_IndiaIsrael_Joint_Working_Group_JWG_on_Counter_Terrorism_CT"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

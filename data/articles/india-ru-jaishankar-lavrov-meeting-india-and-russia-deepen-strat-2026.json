@@ -1,0 +1,60 @@
+{
+  "slug": "india-ru-jaishankar-lavrov-meeting-india-and-russia-deepen-strat-2026",
+  "countryCode": "ru",
+  "date": "2026-06-12",
+  "title": "Jaishankar-Lavrov Meeting: India and Russia Deepen Strategic Partnership Amid Global Volatility",
+  "lede": "India's External Affairs Minister S. Jaishankar hosted Russian Foreign Minister Sergey Lavrov at a BRICS Foreign Ministers Meeting on May 13, 2026, reaffirming deepening bilateral ties across economic, energy, and political dimensions while emphasizing shared commitment to multipolarity.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The meeting between Jaishankar and Lavrov occurred during the BRICS Foreign Ministers Meeting in India, providing a formal diplomatic platform to review the India-Russia Special and Privileged Strategic Partnership. Jaishankar's opening remarks underscored that bilateral relations have experienced \"steady and sustained growth\" in recent years, with particular emphasis on economic and energy cooperation becoming \"more pronounced.\" The timing reflects India's role as the current or recent BRICS chair, positioning New Delhi as a diplomatic hub for multilateral engagement. The External Affairs Minister stressed that the \"complicated international situation\" requires \"open exchange of views, especially between two trusted partners,\" signaling that both nations view their relationship as crucial for navigating global uncertainty.",
+    "threads": "This engagement extends India's long-standing strategic autonomy and special relationship with Russia, which has proven resilient despite global pressures. [[india-ru-modis-moscow-reset-india-anchors-energy-security-while-navig-2024|Modi's Moscow Reset demonstrated how India maintains energy security through Russian partnerships]] while preserving diplomatic flexibility. The emphasis on political cooperation in \"an uncertain and volatile global environment\" echoes India's consistent position of [[india-ru-indias-ukraine-abstention-strategic-autonomy-meets-energy-pr-2022|strategic autonomy, exemplified during the Ukraine crisis]]. Additionally, the focus on expanded science and technology collaboration and \"mobility of skills and talents\" suggests India is broadening partnership dimensions beyond traditional energy and defense sectors, while the emphasis on connectivity aligns with regional infrastructure initiatives that benefit both nations.",
+    "signal": "Analysts should monitor implementation of initiatives outlined at the Annual Summit level, as Jaishankar emphasized that \"constant tending is the best solution for progressing ties.\" The assertion that both nations share \"a shared interest in strengthening multipolarity\" warrants close observation of how this translates into concrete positions at multilateral forums, particularly within BRICS and the UN. Watch for concrete outcomes in the science and technology collaboration framework and connectivity projects mentioned. The phrase \"greater derisking\"—appearing incomplete in the source—suggests India may be signaling efforts to diversify economic dependencies or reduce exposure to Western sanctions pressure, a theme worth tracking through bilateral trade data and investment flows over the next 6-18 months."
+  },
+  "links": [
+    {
+      "slug": "india-ru-modis-moscow-reset-india-anchors-energy-security-while-navig-2024",
+      "label": "Modi's Moscow Reset: Energy Security and Strategic Navigation",
+      "direction": "backward",
+      "preview": "Demonstrates India's established pattern of maintaining energy partnerships with Russia while preserving strategic autonomy."
+    },
+    {
+      "slug": "india-ru-indias-ukraine-abstention-strategic-autonomy-meets-energy-pr-2022",
+      "label": "India's Ukraine Abstention: Strategic Autonomy Meets Energy",
+      "direction": "backward",
+      "preview": "Shows how India has historically balanced its Russia partnership with independent foreign policy positions."
+    },
+    {
+      "slug": "india-ru-putins-state-visit-to-india-marks-25-years-of-strategic-2026",
+      "label": "Putin's State Visit to India Marks 25 Years of Strategic Partnership",
+      "direction": "sideways",
+      "preview": "Provides context for high-level India-Russia engagement and anniversary commemorations in 2026."
+    },
+    {
+      "slug": "india-ru-jaishankar-lavrov-meeting-india-and-russia-cement-strat-2026",
+      "label": "Jaishankar-Lavrov Meeting: India and Russia Cement Strategic Ties",
+      "direction": "sideways",
+      "preview": "Directly related diplomatic engagement focused on cementing bilateral strategic cooperation."
+    },
+    {
+      "slug": "india-ru-delhi-and-moscow-build-currency-corridor-as-western-sanction-2022",
+      "label": "Delhi and Moscow Build Currency Corridor as Western Sanctions Intensify",
+      "direction": "sideways",
+      "preview": "Demonstrates India-Russia economic coordination mechanisms developed to navigate geopolitical pressures."
+    },
+    {
+      "slug": "india-ru-india-breaks-the-suez-stranglehold-instc-corridor-reshapes-e-2016",
+      "label": "India Breaks the Suez Stranglehold: INSTC Corridor Reshapes Trade",
+      "direction": "sideways",
+      "preview": "Reflects connectivity initiatives between India and Russia that enhance bilateral strategic partnership."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Speech/Statement",
+      "url": "https://www.mea.gov.in/speeches-statements?dtl/41135/Opening_Remarks_by_EAM_Dr_S_Jaishankar_during_his_meeting_with_Sergey_Lavrov_May_13_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

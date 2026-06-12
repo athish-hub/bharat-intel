@@ -1,0 +1,54 @@
+{
+  "slug": "india-fr-prime-minister-modi-to-visit-france-and-slovakia-partic-2026",
+  "countryCode": "fr",
+  "date": "2026-06-12",
+  "title": "Prime Minister Modi to Visit France and Slovakia, Participate in G7 Summit (June 14-18, 2026)",
+  "lede": "India's Prime Minister Narendra Modi will undertake a multi-nation European tour from June 14-18, 2026, visiting France and Slovakia while participating in the G7 Summit, according to an official MEA briefing on June 12, 2026.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The Ministry of External Affairs held a special briefing on June 12, 2026, to outline Prime Minister Modi's forthcoming visit to Europe, spanning June 14-18 and covering three destinations in France, as well as Slovakia. The visit encompasses both bilateral engagements and India's participation in the G7 Summit. The briefing was led by Secretary (West) Shri Sibi George, alongside senior officials including Additional Secretary (North Europe) Smt Pooja Kapoor, Additional Secretary (Europe West) Shri Piyush Srivastava, and Joint Secretary (Multi Economic Relations) Shri Shambhu Hakki, underscoring the high-level significance attached to the visit. This visit represents a continuation of India's strategic engagement with major European powers at a time of evolving geopolitical dynamics. The inclusion of France, a permanent UN Security Council member and major European power, alongside Slovakia and G7 participation reflects New Delhi's prioritization of Europe in its foreign policy architecture.",
+    "threads": "India's deepening engagement with France has been a cornerstone of New Delhi's European strategy, with recent years witnessing elevation of bilateral ties to increasingly significant levels [[india-fr-india-and-france-elevate-ties-to-special-global-strateg-2026|India and France Elevate Ties to 'Special Global Strategic Partnership']]. The timing of Modi's visit follows a pattern of high-level bilateral exchanges between India and France, including reciprocal leadership visits that have strengthened defense, economic, and strategic cooperation. India's participation in the G7 Summit, while not a member state, underscores the grouping's interest in engaging with major Global South powers on issues of international concern. The three-nation configuration of this tour—covering multiple European destinations—aligns with India's broader strategy of multilateral engagement across the continent [[india-fr-modis-three-nation-tour-france-elevates-india-to-specia-2026|Modi's Three-Nation Tour: France Elevates India to Special Global Partnership]].",
+    "signal": "Observers should monitor the substantive outcomes of Modi's bilateral meetings in France, particularly on defense, technology, renewable energy, and strategic coordination. The joint statements and agreements emanating from these engagements will signal the trajectory of India-France ties and any new domains of cooperation. India's positioning during the G7 Summit—particularly its statements on global economic governance, climate action, and geopolitical issues—will be critical to assess how New Delhi leverages participation in this Western-led forum to advance its interests. Watch for any announcements regarding defense contracts, technology partnerships, or joint initiatives in renewable energy, which have been recurring themes in recent India-France engagements [[india-fr-modis-paris-gambit-france-becomes-indias-solar-multiplier-in-2018|Modi's Paris Gambit: France Becomes India's Solar Multiplier]]. The visit's outcome may also set the tone for India-Europe relations in the latter half of 2026, particularly regarding ongoing geopolitical tensions and economic cooperation frameworks."
+  },
+  "links": [
+    {
+      "slug": "india-fr-india-and-france-elevate-ties-to-special-global-strateg-2026",
+      "label": "India and France Elevate Ties to 'Special Global Strategic Partnership'",
+      "direction": "sideways",
+      "preview": "Coverage of India-France bilateral relationship elevation and strategic partnership framework"
+    },
+    {
+      "slug": "india-fr-modis-three-nation-tour-france-elevates-india-to-specia-2026",
+      "label": "Modi's Three-Nation Tour: France Elevates India to Special Global Partnership",
+      "direction": "forward",
+      "preview": "Analysis of Modi's European tour structure and France's role in India's diplomatic strategy"
+    },
+    {
+      "slug": "india-fr-modis-june-2026-europe-tour-france-elevates-india-slova-2026",
+      "label": "Modi's June 2026 Europe Tour: France Elevates India, Slovakia",
+      "direction": "forward",
+      "preview": "Detailed coverage of the June 2026 European visit itinerary and bilateral outcomes"
+    },
+    {
+      "slug": "india-fr-modis-paris-gambit-france-becomes-indias-solar-multiplier-in-2018",
+      "label": "Modi's Paris Gambit: France Becomes India's Solar Multiplier",
+      "direction": "backward",
+      "preview": "Historical context of India-France cooperation on renewable energy and technology"
+    },
+    {
+      "slug": "india-fr-frances-strategic-bet-on-india-why-macrons-republic-day-visi-2024",
+      "label": "France's Strategic Bet on India: Why Macron's Republic Day Visit",
+      "direction": "backward",
+      "preview": "Background on France's strategic prioritization of India in European foreign policy"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Media Briefing",
+      "url": "https://www.mea.gov.in/media-briefings?dtl/41289/Transcript_of_Special_Briefing_by_MEA_on_the_Prime_Ministers_visit_to_France_and_Slovak_Republic_June_11_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

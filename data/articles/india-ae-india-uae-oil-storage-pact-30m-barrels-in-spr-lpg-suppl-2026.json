@@ -1,0 +1,60 @@
+{
+  "slug": "india-ae-india-uae-oil-storage-pact-30m-barrels-in-spr-lpg-suppl-2026",
+  "countryCode": "ae",
+  "date": "2026-06-12",
+  "title": "India-UAE Oil Storage Pact: 30M Barrels in SPR, LPG Supply Framework",
+  "lede": "Prime Minister's May 2026 visit to UAE yielded three strategic energy agreements between Indian and Emirati state firms, anchoring crude oil storage across both nations and establishing long-term LPG supply mechanisms.",
+  "category": "mou",
+  "significance": "high",
+  "sections": {
+    "context": "On 15 May 2026, India and UAE formalized energy collaboration through three separate memoranda of understanding signed between their respective state-owned enterprises. The headline agreement binds Indian Strategic Petroleum Reserves Limited (ISPRL) with Abu Dhabi National Oil Company (ADNOC) to store up to 30 million barrels of crude oil across Indian facilities—including Vishakhapatnam in Andhra Pradesh and planned capacity in Chandikol, Odisha—while simultaneously establishing reciprocal storage arrangements in Fujairah, UAE. This dual-geography approach reflects both nations' shared vulnerability to supply-chain disruption in the Persian Gulf corridor and their deepening economic interdependence. A parallel agreement between Indian Oil Limited (IOCL) and ADNOC Gas Limited targets long-term liquified petroleum gas supply arrangements, operationalizing what was previously framework-level cooperation. The timing coincides with [[india-ae-india-uae-strategic-energy-and-investment-deepening-5-b-2026|broader India-UAE strategic energy and investment deepening]] initiatives and reflects New Delhi's broader effort to secure hydrocarbon supplies amid regional volatility.",
+    "threads": "This energy architecture sits within a wider recalibration of India's Gulf engagement. The SPR agreements extend [[modi-recalibrates-india-gulf-strategy-why-the-uae-visit-sign-2015|Modi's recalibration of India-Gulf strategy]], moving from transactional energy purchases to structural storage partnerships that bind the two economies at infrastructure level. The LPG supply framework echoes earlier bilateral breakthroughs such as [[india-ae-indias-financial-infrastructure-goes-gulf-upi-reaches-uae-as-2023|India's financial infrastructure expansion into the Gulf via UPI]] and complements the broader [[india-ae-indias-gulf-gateway-cepa-goes-live-as-delhi-rewires-regional-2022|CEPA framework]] that has rewired regional economic corridors. Strategic petroleum reserves also carry implicit security dimensions, particularly given the operational environment: India and UAE have recently condemned attacks on regional energy infrastructure, including the [[india-ae-india-condemns-fujairah-attack-calls-for-hormuz-shippin-2026|Fujairah attack]] that threatened oil terminals in Emirati territory. Energy security cooperation therefore mirrors the third agreement outcome—a defence industrial framework—signaling that bilateral partnership now spans civilian and security domains simultaneously.",
+    "signal": "Analysts should track three decision points over the next 18 months. First, the operationalization timeline for the Chandikol facility in Odisha and the activation of Fujairah storage within India's strategic reserve accounting—bureaucratic milestones that will confirm commitment depth. Second, the finalization and signature of the long-term ADNOC Gas–IOCL LPG purchase agreement, which may include pricing formulae, volume commitments, and contract duration that signal both market confidence and inventory strategy. Third, how these energy agreements integrate with the broader [[india-ae-india-and-uae-deepen-strategic-partnership-with-5-billi-2026|$5 billion strategic partnership deepening]] announced in 2026, particularly whether joint infrastructure investment vehicles emerge or whether capacity expansion in both SPR nodes receives co-funding. The defence industrial collaboration framework remains unpublished in full; its detailed provisions will reveal whether energy security cooperation anchors broader military-industrial alignment in the region."
+  },
+  "links": [
+    {
+      "slug": "india-ae-india-uae-strategic-energy-and-investment-deepening-5-b-2026",
+      "label": "India-UAE Strategic Energy and Investment Deepening: $5 Billion",
+      "direction": "sideways",
+      "preview": "Broader strategic partnership framework within which these energy deals sit"
+    },
+    {
+      "slug": "modi-recalibrates-india-gulf-strategy-why-the-uae-visit-sign-2015",
+      "label": "Modi Recalibrates India-Gulf Strategy",
+      "direction": "backward",
+      "preview": "Historical context for India's strategic pivot toward Gulf partnerships and infrastructure"
+    },
+    {
+      "slug": "india-ae-indias-financial-infrastructure-goes-gulf-upi-reaches-uae-as-2023",
+      "label": "India's Financial Infrastructure Goes Gulf: UPI Reaches UAE",
+      "direction": "sideways",
+      "preview": "Earlier infrastructure expansion into UAE reflecting parallel deepening of bilateral economic ties"
+    },
+    {
+      "slug": "india-ae-indias-gulf-gateway-cepa-goes-live-as-delhi-rewires-regional-2022",
+      "label": "India's Gulf Gateway: CEPA Goes Live",
+      "direction": "backward",
+      "preview": "Regional economic framework within which bilateral energy cooperation now operates"
+    },
+    {
+      "slug": "india-ae-india-condemns-fujairah-attack-calls-for-hormuz-shippin-2026",
+      "label": "India Condemns Fujairah Attack, Calls for Hormuz Shipping Freedom",
+      "direction": "sideways",
+      "preview": "Recent regional security incident highlighting vulnerability of Gulf energy infrastructure that SPR agreements address"
+    },
+    {
+      "slug": "india-ae-india-and-uae-deepen-strategic-partnership-with-5-billi-2026",
+      "label": "India and UAE Deepen Strategic Partnership with $5 Billion",
+      "direction": "forward",
+      "preview": "Umbrella framework for investment and strategic cooperation within which energy agreements will be implemented"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41145/List_of_Outcomes_Prime_Ministers_Visit_to_the_UAE_May_15_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

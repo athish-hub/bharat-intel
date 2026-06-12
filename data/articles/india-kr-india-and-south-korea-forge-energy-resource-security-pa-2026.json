@@ -1,0 +1,54 @@
+{
+  "slug": "india-kr-india-and-south-korea-forge-energy-resource-security-pa-2026",
+  "countryCode": "kr",
+  "date": "2026-06-12",
+  "title": "India and South Korea Forge Energy Resource Security Partnership Through CEPA",
+  "lede": "India and South Korea have committed to strengthening energy resource supply chain resilience and trade cooperation, leveraging their Special Strategic Partnership and comprehensive economic framework.",
+  "category": "economic",
+  "significance": "high",
+  "sections": {
+    "context": "India and South Korea anchored their energy partnership on April 20, 2026, through a Joint Statement on Energy Resource Security that formalizes their long-standing economic and energy cooperation. The statement explicitly grounds this partnership in their status as Special Strategic Partners with shared vision for an open, inclusive and prosperous Indo-Pacific region. The timing reflects both countries' recognition that current global conditions—though not detailed in the source—necessitate strengthened energy security frameworks. India serves as a key supplier of naphtha and petroleum feedstocks to South Korea, while South Korea reciprocates as a leading supplier of petroleum products and lubricant base oils to India. This complementary trade relationship forms the economic foundation for deepening cooperation through the India-ROK Comprehensive Economic Partnership Agreement (CEPA) and bilateral frameworks.",
+    "threads": "This energy security declaration sits within a broader strategic upgrade between Delhi and Seoul. [[seoul-delhi-strategic-upgrade-rok-president-visit-yield-2026|The ROK President's recent visit]] has yielded multiple partnership announcements across climate, maritime, and now energy domains, signaling sustained high-level engagement. The energy partnership also connects to the [[india-kr-india-and-south-korea-cement-energy-security-partnershi-2026|existing cement of energy security partnerships]] between the two nations. Beyond bilateral tracks, the joint statement emphasizes the centrality of open markets, rules-based trade, and regional cooperation—positioning the energy partnership within India's broader Indo-Pacific strategy and South Korea's economic security calculus in an uncertain geopolitical environment.",
+    "signal": "Analysts should monitor the operationalization of energy supply chain resilience mechanisms under CEPA over the next 6-18 months. Key decision points include: whether India and South Korea will establish joint energy taskforces or emergency supply protocols; the pace of acceleration in energy transition cooperation; and whether this bilateral framework becomes a template for broader Indo-Pacific energy partnerships. The emphasis on \"open trade arrangements for energy resources\" suggests both nations are signaling commitment to liberal trade amid potential protectionist pressures. Watch for announcements on regional cooperation frameworks that might include ASEAN or Quad partners, which would indicate elevation of this bilateral partnership to a multilateral dimension."
+  },
+  "links": [
+    {
+      "slug": "seoul-delhi-strategic-upgrade-rok-president-visit-yield-2026",
+      "label": "Seoul-Delhi Strategic Upgrade: ROK President Visit",
+      "direction": "sideways",
+      "preview": "Broader strategic partnership framework within which the energy security agreement was announced"
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-cement-energy-security-partnershi-2026",
+      "label": "India and South Korea Cement Energy Security Partnership",
+      "direction": "sideways",
+      "preview": "Related energy partnership initiatives between India and South Korea"
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-forge-climate-partnership-under-p-2026",
+      "label": "India and South Korea Forge Climate Partnership",
+      "direction": "sideways",
+      "preview": "Parallel climate partnership track announced during the same strategic engagement period"
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-launch-voyages-maritime-partnersh-2026",
+      "label": "India and South Korea Launch VOYAGES Maritime Partnership",
+      "direction": "sideways",
+      "preview": "Related multilateral framework engagement between the two nations in the Indo-Pacific"
+    },
+    {
+      "slug": "india-kr-seouls-deepest-bet-how-hyundais-record-ipo-reshapes-india-ko-2025",
+      "label": "Seoul's Deepest Bet: Hyundai's Record IPO",
+      "direction": "backward",
+      "preview": "Historical context of South Korea's deepening economic investment and integration with India"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41068/India_Republic_of_Korea_Joint_Statement_on_Energy_Resource_Security"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
