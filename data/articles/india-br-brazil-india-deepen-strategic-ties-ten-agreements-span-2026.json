@@ -1,0 +1,48 @@
+{
+  "slug": "india-br-brazil-india-deepen-strategic-ties-ten-agreements-span-2026",
+  "countryCode": "br",
+  "date": "2026-06-13",
+  "title": "Brazil-India Deepen Strategic Ties: Ten Agreements Span Critical Minerals, Digital Partnership, Trade",
+  "lede": "President Luiz Inácio Lula da Silva's state visit to India in February 2026 yielded ten bilateral agreements covering rare earth minerals, digital cooperation, and MSME entrepreneurship, while Brazil extended business visas for Indian passport holders to a decade.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "President Lula's February 18-22, 2026 state visit marked a significant diplomatic moment for India-Brazil relations, producing a comprehensive suite of bilateral outcomes across strategic sectors. The timing underscores both nations' shared interests in securing supply chains and deepening institutional partnerships. The agreements span resource security—critical minerals and rare earth minerals cooperation—to knowledge-sharing mechanisms including traditional knowledge digital libraries and film institute exchanges. Brazil's decision to extend business visas for Indian ordinary passport holders from their previous duration to 10 years (effective February 7, 2026) signals facilitation of commercial and people-to-people connectivity. This visit represents sustained high-level engagement between Delhi and Brasília, with ten formal instruments addressing economic, technological, and cultural dimensions of bilateral relations.",
+    "threads": "These outcomes align with broader [[india-br-india-secures-ground-access-to-brazils-critical-minerals-for-2025|India's strategic pivot toward securing critical minerals access]] from major Global South economies. The rare earth minerals and critical minerals MoU directly addresses India's resource vulnerabilities in the green energy transition and manufacturing. The digital partnership action plan reflects India's Digital India framework ambitions and positions Brazil as a technological cooperation partner. Postal sector and e-certificates of origin agreements indicate trade facilitation focus, while MSME entrepreneurship cooperation connects to India's domestic economic objectives. The INPI-CSIR traditional knowledge collaboration and film institute exchanges between SRFTI and University of São Paulo echo India's broader cultural diplomacy strategy in the Global South, particularly relevant within [[india-br-india-passes-the-g20-baton-modi-lula-compact-signals-shift-t-2023|ongoing India-Brazil coordination frameworks]].",
+    "signal": "Analysts should monitor implementation timelines for the critical minerals and rare earth elements MoU, as this will indicate whether the agreement translates into operational supply chain partnerships. The digital partnership action plan's concrete outputs—whether India-Brazil cooperation yields joint digital standards or technology transfers—will signal the depth of technological alignment. The mining MoU for steel supply chain cooperation requires attention to whether it shapes India's iron ore and mineral sourcing strategies for domestic steel producers. Within 6-18 months, watch for visa utilization data on the extended business visa window to assess commercial activation. The traditional knowledge digital library initiative and film institute partnerships should produce tangible collaborative outputs by late 2027 to validate cultural cooperation momentum. These mechanisms may serve as templates if India and Brazil expand coordination within [[india-br-modis-brasilia-gambit-india-anchors-brics-while-deepening-br-2019|BRICS and other multilateral settings]]."
+  },
+  "links": [
+    {
+      "slug": "india-br-brazil-india-strategic-partnership-deepens-ten-agreemen-2026",
+      "label": "Brazil-India Strategic Partnership Deepens: Ten Agreements Signed",
+      "direction": "sideways",
+      "preview": "Comprehensive reporting on the outcomes and significance of agreements signed during President Lula's state visit."
+    },
+    {
+      "slug": "india-br-india-secures-ground-access-to-brazils-critical-minerals-for-2025",
+      "label": "India Secures Ground Access to Brazil's Critical Minerals",
+      "direction": "backward",
+      "preview": "Background on India's strategic minerals sourcing strategy in Brazil and resource security imperatives."
+    },
+    {
+      "slug": "india-br-india-passes-the-g20-baton-modi-lula-compact-signals-shift-t-2023",
+      "label": "India Passes the G20 Baton: Modi-Lula Compact Signals Shift",
+      "direction": "backward",
+      "preview": "Historical context on India-Brazil coordination in multilateral forums and strategic alignment."
+    },
+    {
+      "slug": "india-br-modis-brasilia-gambit-india-anchors-brics-while-deepening-br-2019",
+      "label": "Modi's Brasilia Gambit: India Anchors BRICS While Deepening Brazil Ties",
+      "direction": "sideways",
+      "preview": "Broader strategic context for India-Brazil relations within BRICS and Global South positioning."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40811/List_of_Outcomes_State_Visit_of_the_President_of_Federative_Republic_of_Brazil_to_India_February_1822_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

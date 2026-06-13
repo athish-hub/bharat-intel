@@ -1,0 +1,54 @@
+{
+  "slug": "india-ca-india-canada-cepa-framework-launched-50-billion-trade-t-2026",
+  "countryCode": "ca",
+  "date": "2026-06-13",
+  "title": "India-Canada CEPA Framework Launched: $50 Billion Trade Target by 2030",
+  "lede": "Canada's Prime Minister finalized Terms of Reference for a Comprehensive Economic Partnership Agreement with India during a February 27–March 2, 2026 visit, establishing negotiation parameters aimed at doubling bilateral trade to USD 50 billion by 2030.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The finalization of the CEPA Terms of Reference represents a formal institutional commitment to structured economic engagement between India and Canada. According to official outcomes released on March 2, 2026, the ToR provides the framework, frequency, and modalities to guide discussions toward an ambitious, balanced, and mutually beneficial agreement covering trade in goods and services alongside other agreed policy areas. The bilateral trade target of USD 50 billion by 2030 signals both capitals view this partnership as foundational to their mid-term economic strategies. The timing of this framework announcement during the Prime Minister's visit underscores the diplomatic recalibration occurring at the highest political level, following a period of significant bilateral tension.",
+    "threads": "The CEPA negotiation launch sits within a broader India-Canada strategic realignment. Alongside the ToR finalization, the visit produced a trilateral MoU on technology and innovation involving Australia, Canada, and India—the ACITI Partnership—indicating New Delhi is integrating Canadian economic ties into its wider Indo-Pacific technology ecosystem. This multi-track approach signals India is compartmentalizing economic cooperation from other bilateral friction points. The visit also references a Declaration of Intent on a Joint Pulse Protein Centre of Excellence at India's National Institute of Food Technology, suggesting sectoral depth beyond headline trade figures. [[india-ca-canada-india-strategic-partnership-renewed-under-one-ea-2026|Canada-India Strategic Partnership Renewed Under 'One Earth']] captures the broader diplomatic context of this reset.",
+    "signal": "Analysts should monitor the timeline and substantive scope of CEPA negotiations beginning after March 2026. The ToR framework is a procedural milestone; the critical test is whether negotiators move toward 'timely conclusion' on goods, services, and 'other agreed policy areas'—language suggesting potential inclusion of non-traditional trade dimensions such as digital economy or standards harmonization. Watch for India-side domestic political signaling on agricultural tariffs and intellectual property, sectors historically sensitive in Canada-India talks. The USD 50 billion target is achievable only if both sides prioritize sectoral deepening; monitor trade data from 2026-2027 as early indicators of negotiating momentum. [[india-ca-india-canada-cepa-negotiations-launch-economic-reset-af-2026|India-Canada CEPA Negotiations Launch: Economic Reset After]] provides forward-looking analysis on deal prospects."
+  },
+  "links": [
+    {
+      "slug": "india-ca-canadas-pm-carney-visits-india-resets-bilateral-ties-af-2026",
+      "label": "Canada's PM Carney visits India, resets bilateral ties",
+      "direction": "sideways",
+      "preview": "Covers the broader diplomatic reset during the February-March 2026 visit that produced the CEPA ToR and other outcomes."
+    },
+    {
+      "slug": "india-ca-canada-india-strategic-partnership-renewed-under-one-ea-2026",
+      "label": "Canada-India Strategic Partnership Renewed Under 'One Earth'",
+      "direction": "sideways",
+      "preview": "Contextualizes the CEPA launch within the overarching strategic partnership framework announced during the visit."
+    },
+    {
+      "slug": "india-ca-india-canada-cepa-negotiations-launch-economic-reset-af-2026",
+      "label": "India-Canada CEPA Negotiations Launch: Economic Reset",
+      "direction": "forward",
+      "preview": "Analyzes negotiation mechanics and economic targets for the CEPA framework formalized in March 2026."
+    },
+    {
+      "slug": "india-ca-delhis-nuclear-option-why-india-suspended-canadian-visas-and-2023",
+      "label": "Delhi's Nuclear Option: Why India Suspended Canadian Visas",
+      "direction": "backward",
+      "preview": "Historical context on the diplomatic rupture that preceded the 2026 reset, providing baseline for understanding the CEPA's significance."
+    },
+    {
+      "slug": "india-ca-canadas-carney-era-opens-door-to-delhi-recalibration-but-tru-2025",
+      "label": "Canada's Carney Era Opens Door to Delhi Recalibration",
+      "direction": "backward",
+      "preview": "Explains the political shifts in Ottawa that enabled the Prime Minister's first India visit and the CEPA framework announcement."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/40838/List_of_Outcomes_Visit_of_Prime_Minister_of_Canada_to_India_February_27__March_02_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

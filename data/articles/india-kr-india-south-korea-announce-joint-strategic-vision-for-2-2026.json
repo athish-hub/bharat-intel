@@ -1,0 +1,54 @@
+{
+  "slug": "india-kr-india-south-korea-announce-joint-strategic-vision-for-2-2026",
+  "countryCode": "kr",
+  "date": "2026-06-13",
+  "title": "India-South Korea Announce Joint Strategic Vision for 2026-2030 Partnership",
+  "lede": "South Korean President Lee Jae Myung concluded a landmark April 2026 state visit to India, the earliest presidential visit after taking office, with New Delhi announcing a Joint Strategic Vision to deepen the Special Strategic Partnership over five years.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "President Lee Jae Myung's three-day state visit from 19-21 April 2026, undertaken at the invitation of Prime Minister Narendra Modi, marks a significant diplomatic opening for Seoul's new administration toward India. The visit was accompanied by a high-level delegation comprising Ministers, senior officials, and leading Korean corporate executives, signaling comprehensive engagement across political, bureaucratic, and commercial channels. During bilateral meetings on 20 April in New Delhi, both leaders articulated their governments' commitment to concrete cooperation across multiple domains, framing the partnership as essential to delivering prosperity, peace, and progress amid global turbulence and rapid geopolitical change. The announcement of a five-year Joint Strategic Vision (2026-2030) represents a deliberate effort to institutionalize and expand the existing India-ROK Special Strategic Partnership, moving beyond declaratory statements to substantive implementation frameworks.",
+    "threads": "India and South Korea are positioned as two vibrant democracies and leading world economies of Asia, sharing deep historical ties and mutual goodwill rooted in democratic and civil foundations. This partnership upgrade reflects broader patterns of Asian democracies consolidating strategic coordination in response to regional power dynamics. The visit connects to [[india-kr-south-korean-president-lee-jae-myung-begins-first-state-visit-2026|South Korea's broader strategic reorientation toward India]], part of Seoul's effort to diversify partnerships beyond traditional Western and Japanese alignments. The emphasis on democratic values and civil society suggests the partnership extends beyond transactional security or trade arrangements, potentially incorporating governance, cultural, and people-to-people dimensions that characterize newer-generation bilateral relationships in the Indo-Pacific.",
+    "signal": "The Joint Strategic Vision announcement signals that substantive bilateral documents and cooperation frameworks are forthcoming—the source text indicates the vision is being announced but implementation details remain to be detailed. Analysts should monitor the content and breadth of sectoral agreements under this vision, particularly in defense, technology, climate, and economic domains. The timing of this visit—early in President Lee's tenure—and its characterization as the earliest Korean presidential visit after assuming office suggest Seoul is prioritizing India early in its diplomatic calendar, indicating significant strategic intent. Watch for follow-up high-level exchanges, joint working groups, and concrete deliverables announced under the 2026-2030 framework, which will clarify whether this partnership represents incremental deepening or a structural realignment of Korean foreign policy toward India. The inclusion of corporate CEOs signals potential trade and investment expansion, which could be quantified in subsequent bilateral economic roadmaps."
+  },
+  "links": [
+    {
+      "slug": "india-kr-south-korean-president-lee-jae-myung-begins-first-state-visit-2026",
+      "label": "South Korean President Lee Jae Myung Begins First State Visit",
+      "direction": "backward",
+      "preview": "Coverage of President Lee's arrival and the opening of his April 2026 state visit to India."
+    },
+    {
+      "slug": "india-kr-seoul-delhi-strategic-upgrade-rok-president-visit-yield-2026",
+      "label": "Seoul-Delhi Strategic Upgrade: ROK President Visit Outcomes",
+      "direction": "sideways",
+      "preview": "Analysis of the strategic upgrading outcomes and bilateral achievements from the presidential visit."
+    },
+    {
+      "slug": "india-kr-india-south-korea-upgrade-strategic-partnership-with-11-2026",
+      "label": "India-South Korea Upgrade Strategic Partnership Framework",
+      "direction": "sideways",
+      "preview": "Detailed examination of the Special Strategic Partnership upgrade and its multilateral dimensions."
+    },
+    {
+      "slug": "india-kr-south-korea-elevates-india-partnership-with-maritime-en-2026",
+      "label": "South Korea Elevates India Partnership in Maritime and Energy",
+      "direction": "forward",
+      "preview": "Sector-specific cooperation areas emerging from the strategic partnership framework."
+    },
+    {
+      "slug": "india-kr-india-korea-partnership-upgrade-27b-trade-to-50b-by-203-2026",
+      "label": "India-Korea Trade Partnership: $27B to $50B by 2030",
+      "direction": "forward",
+      "preview": "Economic expansion targets and trade roadmap under the new strategic vision framework."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41066/Joint_Strategic_Vision_for_IndiaROK_Special_Strategic_Partnership"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
