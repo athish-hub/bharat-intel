@@ -1,0 +1,42 @@
+{
+  "slug": "india-fr-prime-ministers-three-phase-france-visit-begins-in-nice-2026",
+  "countryCode": "fr",
+  "date": "2026-06-15",
+  "title": "Prime Minister's Three-Phase France Visit Begins in Nice, Proceeds to G7 Summit",
+  "lede": "India's Prime Minister arrived in Nice on June 14, 2026, launching a structured three-phase diplomatic visit to France that will include participation in the G7 meeting in Évian-les-Bains before concluding in Paris.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "Prime Minister reached Nice yesterday evening and was received at the airport, marking the opening of a carefully sequenced diplomatic engagement with France. The visit is structured across three distinct phases, with Nice serving as the first location for bilateral engagements. Foreign Secretary Shri Vikram Misri led a special media briefing on June 15, 2026, to outline the visit's scope and significance. The phased approach—Nice, followed by Évian-les-Bains for G7 meetings, and concluding in Paris—reflects the comprehensive nature of Indo-French diplomatic engagement. The extended nature of the visit and the presence of senior officials including Ambassador Shri Sanjeev Singla and Additional Secretary Shri Piyush Srivastava underscores the importance Delhi places on this engagement. [[india-fr-pm-modis-june-2026-europe-visit-france-slovakia-and-g7-2026|PM Modi's June 2026 Europe Visit: France, Slovakia and G7]] provides context for this broader European tour.",
+    "threads": "This visit occurs within India's broader multi-country European tour in June 2026, which encompasses France, Slovakia, and participation in the G7 framework. The timing of the visit, positioned ahead of the G7 summit in Évian-les-Bains, suggests deliberate coordination of bilateral and multilateral diplomacy. India's participation in G7 discussions represents engagement with the world's advanced economies, where France serves as both a participant state and a key bilateral partner. The three-phase structure allows for distinct conversations on different topics—likely bilateral strategic matters in Nice, multilateral coordination in Évian-les-Bains, and broader partnership frameworks in Paris. [[india-fr-modis-three-nation-tour-france-elevates-india-to-special-g-2026|Modi's Three-Nation Tour: France Elevates India to Special G]] contextualizes this visit within India's broader European diplomatic strategy.",
+    "signal": "Analysts should monitor the outcomes of the Nice phase meetings, which remain undisclosed in this briefing, to determine the priority areas France and India are addressing bilaterally. The subsequent G7 session in Évian-les-Bains will reveal how India positions itself on shared global challenges and whether France advocates for India's interests within the G7 format. The Paris phase, as the concluding segment, may yield formal agreements or joint statements that reflect the cumulative outcomes of all three phases. The presence of the Foreign Secretary and senior MEA officials at the briefing indicates high-level attention to this engagement's diplomatic output. Watch for any announcements regarding defense partnerships, technology collaboration, or strategic coordination that emerge during the Paris phase, as these typically represent the capstone of such visits."
+  },
+  "links": [
+    {
+      "slug": "india-fr-pm-modis-june-2026-europe-visit-france-slovakia-and-g7-2026",
+      "label": "PM Modi's June 2026 Europe Visit: France, Slovakia and G7",
+      "direction": "sideways",
+      "preview": "Covers Modi's broader European tour including the France visit, Slovakia engagement, and G7 participation"
+    },
+    {
+      "slug": "india-fr-modis-three-nation-tour-france-elevates-india-to-special-g-2026",
+      "label": "Modi's Three-Nation Tour: France Elevates India to Special G",
+      "direction": "sideways",
+      "preview": "Details the three-nation European tour and France's role in elevating India's strategic status"
+    },
+    {
+      "slug": "india-fr-india-and-france-elevate-strategic-partnership-to-speci-2026",
+      "label": "India and France Elevate Strategic Partnership to Special G",
+      "direction": "forward",
+      "preview": "Expected outcomes of the bilateral engagement during this visit and strategic partnership elevation"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Media Briefing",
+      "url": "https://www.mea.gov.in/media-briefings?dtl/41307/Transcript_of_Special_Briefing_by_MEA_on_the_visit_of_Prime_Minister_to_Nice_France_June_14_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
