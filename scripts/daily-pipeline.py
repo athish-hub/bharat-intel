@@ -154,11 +154,12 @@ def scrape_mea(since: datetime) -> list[dict]:
                             continue
                         seen_urls.add(url)
 
-                        # Extract date from article page title/meta if possible,
-                        # otherwise use today as fallback
+                        # Try to get date directly from the URL slug (most reliable for MEA)
+                        # e.g. May_15_2026, March_02_2026 embedded in the URL path
+                        url_date = extract_date_from_url(url)
                         items.append({
                             "title": title, "url": url,
-                            "date": datetime.now().strftime("%Y-%m-%d"),
+                            "date": url_date or datetime.now().strftime("%Y-%m-%d"),
                             "snippet": title, "source_label": source_label,
                         })
 
@@ -204,12 +205,13 @@ def scrape_pib(since: datetime) -> list[dict]:
             resp = requests.get(pib_url, headers=HEADERS, timeout=20)
             resp.raise_for_status()
             soup = BeautifulSoup(resp.text, "html.parser")
+            # PIB listing pages show dates as text near each link, e.g. "June 10, 2026"
+            # Walk each link and try to find the nearest date sibling/parent text
             for a in soup.select("a[href*='PressReleasePage']")[:150]:
                 title = a.get_text(strip=True)
                 href = a.get("href", "")
                 if not title or len(title) < 10 or title in seen:
                     continue
-                # For MEA/Defence specific pages, include everything; for all-ministry, filter
                 if "mnid=21" in pib_url or "mnid=18" in pib_url:
                     passes = True
                 else:
@@ -218,9 +220,22 @@ def scrape_pib(since: datetime) -> list[dict]:
                     continue
                 seen.add(title)
                 url = href if href.startswith("http") else f"https://pib.gov.in{href}"
+
+                # Try to extract date from the surrounding container text
+                item_date = None
+                parent = a.parent
+                for _ in range(4):  # walk up to 4 levels up
+                    if parent is None:
+                        break
+                    parent_text = parent.get_text(" ", strip=True)
+                    item_date = extract_date_from_text(parent_text)
+                    if item_date:
+                        break
+                    parent = parent.parent
+
                 items.append({
                     "title": title, "url": url,
-                    "date": datetime.now().strftime("%Y-%m-%d"),
+                    "date": item_date or datetime.now().strftime("%Y-%m-%d"),
                     "snippet": title, "source_label": "PIB Notification",
                 })
         except Exception as e:
@@ -463,11 +478,34 @@ DATE_PATTERNS = [
     r'\b(20\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])\b',
 ]
 
+# MEA URL slug patterns: May_15_2026 / March_02_2026 / June_4_2026
+URL_DATE_PATTERN = re.compile(
+    r'(January|February|March|April|May|June|July|August|September|October|November|December)'
+    r'[_\-](\d{1,2})[_\-](20\d{2})',
+    re.IGNORECASE,
+)
+
 MONTHS = {"january":1,"february":2,"march":3,"april":4,"may":5,"june":6,
           "july":7,"august":8,"september":9,"october":10,"november":11,"december":12}
 
+
+def extract_date_from_url(url: str) -> Optional[str]:
+    """Extract event date from MEA URL slugs like May_15_2026 or March_02_2026."""
+    m = URL_DATE_PATTERN.search(url)
+    if m:
+        month = MONTHS.get(m.group(1).lower())
+        if month:
+            return f"{m.group(3)}-{month:02d}-{int(m.group(2)):02d}"
+    # Also handle ISO date in URL
+    m2 = re.search(r'(20\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])', url)
+    if m2:
+        return f"{m2.group(1)}-{m2.group(2)}-{m2.group(3)}"
+    return None
+
+
 def extract_date_from_text(text: str) -> Optional[str]:
-    """Try to find the event date in MEA article text. Returns YYYY-MM-DD or None."""
+    """Try to find the event date in article text. Returns YYYY-MM-DD or None.
+    Searches a wider window and also checks META tags if HTML is provided."""
     for pattern in DATE_PATTERNS:
         m = re.search(pattern, text, re.IGNORECASE)
         if m:
@@ -494,7 +532,16 @@ def extract_date_from_text(text: str) -> Optional[str]:
 
 def fetch_article_text(url: str) -> tuple[str, Optional[str]]:
     """Fetch full article body and publication date from a JS-rendered MEA/PIB page.
-    Returns (text, date_str) where date_str is YYYY-MM-DD or None."""
+    Returns (text, date_str) where date_str is YYYY-MM-DD or None.
+
+    Date priority:
+      1. URL slug (e.g. May_15_2026 embedded in MEA URLs)
+      2. <meta> tags (article:published_time, datePublished, DC.date)
+      3. Full page text search (up to 6000 chars)
+    """
+    # Priority 1: URL slug
+    url_date = extract_date_from_url(url)
+
     try:
         from playwright.sync_api import sync_playwright
         with sync_playwright() as p:
@@ -502,6 +549,27 @@ def fetch_article_text(url: str) -> tuple[str, Optional[str]]:
             page = browser.new_page(extra_http_headers=HEADERS)
             page.goto(url, wait_until="networkidle", timeout=30000)
             page.wait_for_timeout(2000)
+
+            # Priority 2: META tags
+            article_date = url_date
+            if not article_date:
+                for meta_attr in [
+                    'meta[property="article:published_time"]',
+                    'meta[name="datePublished"]',
+                    'meta[name="DC.date"]',
+                    'meta[itemprop="datePublished"]',
+                    'time[datetime]',
+                ]:
+                    el = page.query_selector(meta_attr)
+                    if el:
+                        val = el.get_attribute("content") or el.get_attribute("datetime") or ""
+                        # Accept ISO-like: 2026-05-15T... or 2026-05-15
+                        m = re.match(r'(20\d{2})-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])', val)
+                        if m:
+                            article_date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+                            break
+
+            # Extract article body
             text = ""
             for selector in [".article-content", ".content-area", "#content", "article", "main"]:
                 el = page.query_selector(selector)
@@ -514,14 +582,17 @@ def fetch_article_text(url: str) -> tuple[str, Optional[str]]:
                     p.inner_text().strip() for p in paras
                     if len(p.inner_text().strip()) > 60
                 )
-            # Try to extract date from page
-            full_page_text = page.inner_text("body") if not text else text
-            article_date = extract_date_from_text(full_page_text[:2000])
+
+            # Priority 3: full page text (wider window than before)
+            if not article_date:
+                full_page_text = page.inner_text("body")
+                article_date = extract_date_from_text(full_page_text[:6000])
+
             browser.close()
             return text[:3000].strip(), article_date
     except Exception as e:
         log.warning(f"Failed to fetch article text from {url}: {e}")
-        return "", None
+        return "", url_date  # return URL-based date even if fetch failed
 
 
 def run():
@@ -545,9 +616,16 @@ def run():
     all_slugs = load_existing_slugs()
     log.info(f"Loaded {len(all_slugs)} existing slugs for link grounding")
 
+    today = datetime.now().strftime("%Y-%m-%d")
     total_articles = 0
     for item in raw:
-        # Fetch full article text + extract actual event date
+        # Step 1: try URL-based date first (fast, no network call)
+        if item.get("url"):
+            url_date = extract_date_from_url(item["url"])
+            if url_date:
+                item["date"] = url_date
+
+        # Step 2: fetch full article text + try page-level date extraction
         if len(item.get("snippet", "")) < 200 and item.get("url"):
             log.info(f"  Fetching full text: {item['url'][:70]}…")
             full_text, article_date = fetch_article_text(item["url"])
@@ -556,9 +634,11 @@ def run():
                 log.info(f"  Got {len(full_text)} chars")
             if article_date:
                 item["date"] = article_date
-                log.info(f"  Date extracted: {article_date}")
+                log.info(f"  Date extracted from page: {article_date}")
+            elif item["date"] == today:
+                log.warning(f"  Could not determine event date — article will be dated today ({today})")
             else:
-                log.info(f"  Date not found in page, keeping scrape date")
+                log.info(f"  Using URL-extracted date: {item['date']}")
 
         cl = classify(item["title"], item["snippet"])
         country_code = cl.get("country_code")
