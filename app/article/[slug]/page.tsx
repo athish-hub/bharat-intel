@@ -7,6 +7,8 @@ import ArticleBody from "@/components/ArticleBody";
 import CountryBadge from "@/components/CountryBadge";
 import { clsx } from "clsx";
 
+const BASE_URL = "https://bharat-intel-seven.vercel.app";
+
 interface Props {
   params: { slug: string };
 }
@@ -19,15 +21,41 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const article = loadArticle(params.slug);
   if (!article) return { title: "Not found" };
   const country = COUNTRIES_BY_CODE[article.countryCode];
+  const countryName = country?.name ?? article.countryCode.toUpperCase();
+  const year = article.date.slice(0, 4);
+  const canonicalUrl = `${BASE_URL}/article/${article.slug}`;
+
+  const keywords = [
+    `India ${countryName} relations`,
+    `India ${countryName} bilateral`,
+    `India ${countryName} ${year}`,
+    `India foreign policy ${year}`,
+    `${countryName} India ${article.category}`,
+    "MEA India",
+    "Indian diplomacy",
+    "BharatIntel",
+  ];
+
   return {
-    title: article.title,
+    title: `${article.title} | India–${countryName} Relations`,
     description: article.lede,
+    keywords,
+    alternates: { canonical: canonicalUrl },
     openGraph: {
       title: article.title,
       description: article.lede,
       type: "article",
+      url: canonicalUrl,
+      siteName: "BharatIntel",
       publishedTime: article.date,
-      tags: [country?.name ?? article.countryCode, article.category],
+      authors: ["BharatIntel"],
+      tags: [countryName, `India ${countryName}`, article.category, "Indian foreign policy"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: article.title,
+      description: article.lede,
+      site: "@bharatintel",
     },
   };
 }
@@ -49,9 +77,49 @@ export default function ArticlePage({ params }: Props) {
   const existingSlugs = new Set(getAllSlugs());
   const country = COUNTRIES_BY_CODE[article.countryCode];
   const category = CATEGORY_META[article.category];
+  const countryName = country?.name ?? article.countryCode.toUpperCase();
+  const year = article.date.slice(0, 4);
+  const canonicalUrl = `${BASE_URL}/article/${article.slug}`;
+
+  // JSON-LD Article schema — the biggest single signal to Google
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline: article.title,
+    description: article.lede,
+    datePublished: article.date,
+    dateModified: article.date,
+    url: canonicalUrl,
+    author: {
+      "@type": "Organization",
+      name: "BharatIntel",
+      url: BASE_URL,
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "BharatIntel",
+      url: BASE_URL,
+    },
+    about: [
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: countryName },
+    ],
+    keywords: `India ${countryName} relations, India ${countryName} bilateral ${year}, Indian foreign policy, ${article.category}`,
+    isPartOf: {
+      "@type": "WebSite",
+      name: "BharatIntel",
+      url: BASE_URL,
+    },
+  };
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+      {/* JSON-LD structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb */}
       <nav className="text-xs text-slate-400 mb-6 flex items-center gap-1.5">
         <a href="/" className="hover:text-slate-600 transition-colors">Home</a>

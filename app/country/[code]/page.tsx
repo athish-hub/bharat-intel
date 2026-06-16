@@ -14,12 +14,38 @@ export async function generateStaticParams() {
   return COUNTRIES.map((c) => ({ code: c.code }));
 }
 
+const BASE_URL = "https://bharat-intel-seven.vercel.app";
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const country = COUNTRIES_BY_CODE[params.code];
   if (!country) return { title: "Not found" };
+  const canonicalUrl = `${BASE_URL}/country/${params.code}`;
+
   return {
-    title: `India–${country.name}`,
+    title: `India–${country.name} Relations | Intelligence & Analysis`,
     description: country.summary,
+    keywords: [
+      `India ${country.name} relations`,
+      `India ${country.name} bilateral`,
+      `India ${country.name} foreign policy`,
+      `${country.name} India diplomacy`,
+      `India ${country.name} trade defence`,
+      "BharatIntel",
+    ],
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `India–${country.name} Relations`,
+      description: country.summary,
+      type: "website",
+      url: canonicalUrl,
+      siteName: "BharatIntel",
+    },
+    twitter: {
+      card: "summary",
+      title: `India–${country.name} Relations | BharatIntel`,
+      description: country.summary,
+      site: "@bharatintel",
+    },
   };
 }
 
@@ -29,6 +55,26 @@ export default function CountryPage({ params }: Props) {
 
   const articles = loadCountryArticles(country.code, 30);
   const statusMeta = STATUS_META[country.status];
+  const canonicalUrl = `${BASE_URL}/country/${params.code}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: `India–${country.name} Relations`,
+    description: country.summary,
+    url: canonicalUrl,
+    about: [
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: country.name },
+    ],
+    breadcrumb: {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+        { "@type": "ListItem", position: 2, name: country.name, item: canonicalUrl },
+      ],
+    },
+  };
 
   // Count by category
   const catCounts: Record<string, number> = {};
@@ -38,6 +84,12 @@ export default function CountryPage({ params }: Props) {
 
   return (
     <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">
+      {/* JSON-LD structured data */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+
       {/* Breadcrumb */}
       <nav className="text-xs text-slate-400 mb-6 flex items-center gap-1.5">
         <a href="/" className="hover:text-slate-600 transition-colors">Home</a>
