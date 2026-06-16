@@ -1,0 +1,54 @@
+{
+  "slug": "india-om-india-condemns-settebello-attack-off-oman-three-crew-mi-2026",
+  "countryCode": "om",
+  "date": "2026-06-16",
+  "title": "India Condemns Settebello Attack Off Oman; Three Crew Missing in Regional Shipping Crisis",
+  "lede": "India's Ministry of External Affairs condemned an attack on the commercial vessel Settebello off Oman's coast on June 10, 2026, with 21 of 24 Indian crew rescued and three missing, as New Delhi calls for de-escalation in regional maritime security crisis.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The attack on the Settebello represents the latest in a pattern of maritime incidents affecting Indian shipping interests in the Arabian Sea region. Of the 24 Indian crew members aboard the vessel, 21 have been successfully rescued through ongoing search and rescue operations coordinated between India's Embassy in Oman and Omani authorities, while three remain unaccounted for. The incident occurred amid broader regional instability, with New Delhi explicitly linking the attack to an unspecified ongoing conflict affecting the area and warning that such incidents directly threaten commercial navigation and international commerce.",
+    "threads": "This incident reflects deepening concerns about maritime security in waters critical to Indian trade and energy security, particularly as Prime Minister Modi has been actively strengthening India's strategic engagement across the Gulf region. The attack underscores vulnerabilities affecting civilian shipping infrastructure that India has previously flagged through diplomatic channels. New Delhi's response emphasizes the need for immediate de-escalation and diplomatic solutions to the underlying regional tensions, positioning India as an advocate for stabilizing international waterways and restoring free navigation in keeping with international law.",
+    "signal": "Analysts should monitor three key developments: the outcome of the ongoing search and rescue operation for the three missing Indian crew members; India's diplomatic engagement with Omani authorities and other regional stakeholders regarding enhanced maritime security measures; and whether the incident accelerates India's calls for negotiated resolution to the regional conflict. The frequency and targeting of commercial shipping will be a critical indicator of whether diplomatic efforts gain traction. Watch for Indian policy responses, including potential coordination with other maritime nations transiting these waters and whether New Delhi escalates its statements on regional de-escalation at multilateral forums."
+  },
+  "links": [
+    {
+      "slug": "india-om-indian-crew-missing-after-attack-on-settebello-off-oman-2026",
+      "label": "Indian Crew Missing After Attack on Settebello",
+      "direction": "sideways",
+      "preview": "Detailed coverage of the specific incident and crew casualties from the Settebello attack."
+    },
+    {
+      "slug": "india-om-india-condemns-attack-on-settebello-three-indian-crew-m-2026",
+      "label": "India Condemns Settebello Attack: Three Crew Missing",
+      "direction": "sideways",
+      "preview": "India's official condemnation and response to the maritime security incident off Oman."
+    },
+    {
+      "slug": "india-om-modis-oman-visit-deepens-gulf-strategic-engagement-as-r-2026",
+      "label": "Modi's Oman Visit Deepens Gulf Strategic Engagement",
+      "direction": "backward",
+      "preview": "Context on India's broader strategic partnership with Oman and regional diplomatic positioning."
+    },
+    {
+      "slug": "india-om-india-condemns-attack-on-settebello-maritime-security-c-2026",
+      "label": "India Condemns Settebello: Maritime Security Crisis",
+      "direction": "sideways",
+      "preview": "Analysis of the incident within the broader regional maritime security context."
+    },
+    {
+      "slug": "india-om-india-condemns-attack-on-settebello-regional-shipping-c-2026",
+      "label": "Attack on Settebello: Regional Shipping Crisis",
+      "direction": "sideways",
+      "preview": "The incident's implications for commercial shipping patterns and regional stability."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Speech/Statement",
+      "url": "https://www.mea.gov.in/speeches-statements?dtl/41284/Statement_on_the_attack_on_a_commercial_vessel_off_the_coast_of_Oman"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
