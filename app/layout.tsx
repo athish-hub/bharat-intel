@@ -5,6 +5,9 @@ import Footer from "@/components/Footer";
 import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
+  verification: {
+    google: "AZXobGK8pjZ9IAB7Xi2G-plIKBVWlfCed9ZZ4WibyT0",
+  },
   title: {
     default: "BharatIntel — India's Foreign Policy Intelligence",
     template: "%s · BharatIntel",
