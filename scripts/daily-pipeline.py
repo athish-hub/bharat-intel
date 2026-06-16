@@ -651,6 +651,7 @@ def run():
         item["description"] = cl.get("description", item["snippet"][:300])
 
         # Skip if a very similar article already exists
+        # NOTE: all_slugs is updated in-run so we catch duplicates within a single pipeline run
         if is_duplicate(item["title"], country_code, all_slugs):
             log.info(f"  Skipping duplicate: {item['title'][:60]}")
             continue
@@ -665,6 +666,14 @@ def run():
                 with open(out_path, "w", encoding="utf-8") as f:
                     json.dump(article, f, indent=2, ensure_ascii=False)
                 log.info(f"  ✓ {article['slug']}")
+                # ← Critical fix: add the new article to all_slugs immediately so
+                #   subsequent items in this same run are checked against it
+                all_slugs.append({
+                    "slug": article["slug"],
+                    "title": article["title"],
+                    "country": country_code,
+                    "category": item["category"],
+                })
                 total_articles += 1
 
         time.sleep(1.2)
