@@ -1,0 +1,60 @@
+{
+  "slug": "india-us-modi-and-trump-advance-india-us-compact-framework-at-g7-2026",
+  "countryCode": "us",
+  "date": "2026-06-17",
+  "title": "Modi and Trump Advance India-US COMPACT Framework at G7 Summit in Evian",
+  "lede": "Prime Minister Narendra Modi and President Donald Trump met on the sidelines of the G7 Summit in Evian on June 17, 2026, to review progress on the India-US COMPACT framework and advance negotiations toward a bilateral trade agreement.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The bilateral meeting occurred within the broader context of the G7 Summit in Evian, France, on June 17, 2026. Modi commended Trump's diplomatic efforts in achieving an understanding to end the ongoing West Asia conflict and restore regional peace and stability. The Prime Minister specifically emphasized the strategic importance of maintaining freedom of navigation and unimpeded commerce in the Strait of Hormuz, alongside ensuring seafarer safety—concerns directly tied to India's energy security and maritime commerce interests. This meeting represents a continuation of high-level engagement that began with Modi's Washington D.C. visit in February 2025, when the leaders established the India-US COMPACT framework. The timing reflects sustained bilateral momentum across multiple strategic domains, even as both nations navigate complex regional dynamics in West Asia.",
+    "threads": "The Modi-Trump engagement sits within India's broader strategic architecture with the United States, built upon successive defence partnership agreements including [[india-us-lemoa-india-crosses-the-rubicon-on-military-interoperability-2016|LEMOA]], [[india-us-india-unlocks-us-encrypted-comms-comcasa-reshapes-military-i-2018|COMCASA]], and [[india-us-beca-seals-the-strategic-architecture-indias-defence-pact-tr-2020|BECA]], which have institutionalized military interoperability and intelligence sharing. The COMPACT framework itself expands this architecture into civilian domains—strategic technologies, energy, and bilateral trade. The focus on West Asia peace and maritime security also reflects India's independent strategic interests, particularly regarding energy supplies and commercial routes, suggesting the partnership operates on aligned but distinct national interest calculations. Recent diplomatic engagements, including [[india-us-jaishankar-welcomes-rubios-first-delhi-visit-us-india-s-2026|Jaishankar's reception of Secretary Rubio's Delhi visit]], indicate sustained high-level consultations across both governments.",
+    "signal": "The instruction to officials to work toward a \"balanced, mutually beneficial\" bilateral trade agreement represents the critical next decision point. The incomplete source text cuts off mid-discussion of trade negotiations, but the designation of an \"interim\" agreement suggests a phased approach rather than a comprehensive final accord. Analysts should monitor whether this interim agreement addresses agricultural market access, intellectual property frameworks, and technology transfer provisions that have traditionally stalled India-US trade talks. The emphasis on progress in defence, strategic technologies, and energy sectors suggests the trade negotiations may be embedded within a broader strategic bargain. Watch for announcements in the coming 6-18 months on: (1) the interim trade agreement terms; (2) defence procurement agreements under the COMPACT framework; (3) semiconductor and critical technology partnerships; and (4) whether energy cooperation includes new arrangements for oil and liquefied natural gas sourcing."
+  },
+  "links": [
+    {
+      "slug": "india-us-modis-washington-visit-signals-strategic-recalibration-of-us-2023",
+      "label": "Modi's Washington Visit and COMPACT Framework Launch",
+      "direction": "backward",
+      "preview": "Documents the February 2025 Modi-Trump Washington meeting where the India-US COMPACT framework was initially established"
+    },
+    {
+      "slug": "india-us-jaishankar-welcomes-rubios-first-delhi-visit-us-india-s-2026",
+      "label": "Recent India-US High-Level Diplomatic Engagement",
+      "direction": "sideways",
+      "preview": "Reflects the sustained bilateral consultations and strategic dialogue occurring in parallel to the Modi-Trump Summit meeting"
+    },
+    {
+      "slug": "india-us-beca-seals-the-strategic-architecture-indias-defence-pact-tr-2020",
+      "label": "Defence Partnership Architecture Foundation",
+      "direction": "backward",
+      "preview": "Establishes the historical context of India-US defence agreements that underpin the COMPACT framework's defence component"
+    },
+    {
+      "slug": "india-us-the-technology-fortress-how-india-us-icet-rewired-strategic-2022",
+      "label": "Strategic Technology Cooperation Framework",
+      "direction": "sideways",
+      "preview": "Addresses the strategic technologies dimension explicitly referenced as a key progress area under the COMPACT framework"
+    },
+    {
+      "slug": "india-us-trade-deal-2026",
+      "label": "India-US Trade Negotiations and Bilateral Trade Agreement",
+      "direction": "forward",
+      "preview": "Directly relevant to the interim bilateral trade agreement negotiations that Modi and Trump instructed their officials to advance"
+    },
+    {
+      "slug": "india-us-lemoa-india-crosses-the-rubicon-on-military-interoperability-2016",
+      "label": "Foundational Military Interoperability Agreements",
+      "direction": "backward",
+      "preview": "Provides historical baseline for the defence sector progress highlighted in the COMPACT framework review"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Press Release",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41330/Prime_Minister_meets_President_of_the_United_States_of_America_on_the_sidelines_of_the_G7_Summit_in_Evian_June_17_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

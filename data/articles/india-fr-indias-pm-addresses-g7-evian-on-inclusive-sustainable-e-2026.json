@@ -1,0 +1,48 @@
+{
+  "slug": "india-fr-indias-pm-addresses-g7-evian-on-inclusive-sustainable-e-2026",
+  "countryCode": "fr",
+  "date": "2026-06-18",
+  "title": "India's PM Addresses G7 Evian on Inclusive, Sustainable Economic Growth Model",
+  "lede": "Prime Minister addressed the G7 summit in Evian, France on June 18, 2026, focusing on balanced, shared, and sustainable economic development for all nations.",
+  "category": "multilateral",
+  "significance": "high",
+  "sections": {
+    "context": "The Prime Minister's intervention at the G7 summit in Evian represents India's participation in one of the world's most influential multilateral economic forums. The specific focus on 'balanced, shared, and sustainable economic development' signals India's commitment to advancing an inclusive growth model on the global stage. This positioning reflects India's broader diplomatic strategy of advocating for development pathways that address the needs of all nations, particularly emerging economies, within the framework of major power discussions.",
+    "threads": "India's presence at the G7 underscores the deepening engagement between New Delhi and the Western alliance on economic and development issues. This intervention on inclusive growth connects to broader [[india-fr-modis-paris-gambit-france-becomes-indias-solar-multiplier-in-2018|bilateral India-France strategic partnerships]] where economic collaboration has become central. The multilateral focus on sustainable development also aligns with India's emphasis on climate-conscious growth models, reflecting themes evident in [[india-fr-india-france-innovation-roadmap-2030-elevating-strategi-2026|innovation roadmap initiatives]] between India and France.",
+    "signal": "Analysts should monitor how India's G7 advocacy on inclusive economic models shapes post-summit multilateral outcomes and declarations. The focus on 'balanced' development suggests India may push back against frameworks perceived as favoring advanced economies, a position to watch in future G7 communiqués. The emphasis on sustainability indicates India's intention to link economic growth with environmental responsibility—a critical indicator for assessing India's leverage in global economic negotiations over the next 18 months."
+  },
+  "links": [
+    {
+      "slug": "india-fr-modis-paris-gambit-france-becomes-indias-solar-multiplier-in-2018",
+      "label": "Modi's Paris Gambit: France Becomes India's Solar Multiplier",
+      "direction": "backward",
+      "preview": "Historical context of India-France economic and strategic collaboration."
+    },
+    {
+      "slug": "india-fr-india-france-innovation-roadmap-2030-elevating-strategi-2026",
+      "label": "India-France Innovation Roadmap 2030",
+      "direction": "sideways",
+      "preview": "Related bilateral initiatives on sustainable development and innovation between India and France."
+    },
+    {
+      "slug": "india-fr-modi-at-g7-evian-india-charts-inclusive-growth-model-ag-2026",
+      "label": "Modi at G7 Evian: India Charts Inclusive Growth Model",
+      "direction": "sideways",
+      "preview": "Direct coverage of the Prime Minister's G7 Evian session on inclusive economic development."
+    },
+    {
+      "slug": "india-fr-france-and-india-elevate-partnership-to-special-global-2026",
+      "label": "France and India Elevate Partnership to Special Global Status",
+      "direction": "sideways",
+      "preview": "Broader bilateral strategic elevation framework within which this G7 intervention occurs."
+    }
+  ],
+  "sources": [
+    {
+      "label": "PIB Notification",
+      "url": "https://pib.gov.in/PressReleasePage.aspx?PRID=2274377"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
