@@ -2,3 +2,5 @@ node_modules/
 .next/
 logs/
 *.log
+almari
+__pycache__/
