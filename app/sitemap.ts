@@ -2,6 +2,8 @@ import { MetadataRoute } from "next";
 import { loadAllArticles } from "@/lib/articles";
 import { COUNTRIES } from "@/lib/countries";
 
+export const dynamic = "force-dynamic";
+
 const BASE_URL = "https://bharat-intel-seven.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
