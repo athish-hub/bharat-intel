@@ -1,0 +1,54 @@
+{
+  "slug": "india-kr-india-and-south-korea-launch-voyages-maritime-partnersh-2026",
+  "countryCode": "kr",
+  "date": "2026-06-20",
+  "title": "India and South Korea Launch VOYAGES Maritime Partnership Framework",
+  "lede": "Prime Minister Modi and ROK President Lee Jae Myung agreed on 20 April 2026 to establish a comprehensive shipbuilding, shipping and maritime logistics partnership that leverages South Korea's leading capabilities to advance India's Maritime Amrit Kaal 2047 ambitions.",
+  "category": "economic",
+  "significance": "high",
+  "sections": {
+    "context": "India and South Korea formalized a structured maritime partnership framework during Lee Jae Myung's state visit to India on 20 April 2026. The agreement, titled 'Shared Vision for Operation of Yard Assisted Growth with Efficiency and Scale' (VOYAGES), targets cooperation across shipbuilding, shipping, and maritime logistics—sectors critical to India's security and economic prosperity. The timing reflects India's rapid economic growth and the internationalization of its economy, which have elevated maritime infrastructure as a strategic priority. Both nations possess complementary strengths: India brings scale and growth momentum through its Maritime Amrit Kaal 2047 Vision, while the Republic of Korea contributes world-leading shipbuilding and maritime technology capabilities. The framework explicitly addresses India's long-term maritime ambitions by channeling South Korean expertise into Indian government agencies and private sector entities.",
+    "threads": "This maritime partnership extends India's broader strategic alignment with South Korea across multiple domains. [[india-kr-india-and-south-korea-cement-energy-security-partnershi-2026|India and South Korea have previously cemented energy security partnerships]], and this maritime framework represents parallel deepening of bilateral industrial cooperation. The VOYAGES initiative also reflects Seoul's sustained manufacturing bet on India's economic potential—a pattern documented in previous Korean industrial investments that leverage India's scale advantages. The agreement signals how India's self-reliant growth vision intersects with selective technology partnerships from advanced economies, positioning South Korean shipbuilding expertise as a force multiplier for India's maritime ambitions rather than a substitute for domestic capability development.",
+    "signal": "Analysts should monitor implementation mechanisms, particularly whether joint ventures or technology transfer arrangements emerge between Indian shipyards and South Korean operators. The framework's success will depend on concrete sectoral projects in port development and maritime logistics—watch for signed MOUs between specific Indian and Korean entities within the next 6-9 months. The VOYAGES framework may also establish a precedent for how India structures major industrial partnerships under its Maritime Amrit Kaal 2047 Vision, potentially influencing similar frameworks with other maritime-capable nations. Track whether this partnership generates new capacity additions in Indian shipbuilding or shipping fleets, and whether it creates employment and technological spillovers in coastal manufacturing zones."
+  },
+  "links": [
+    {
+      "slug": "india-kr-india-and-south-korea-launch-voyages-framework-for-mari-2026",
+      "label": "India and South Korea Launch VOYAGES Framework for Maritime",
+      "direction": "sideways",
+      "preview": "Announcement of the VOYAGES comprehensive partnership framework in shipbuilding, shipping and maritime logistics during Lee Jae Myung's state visit."
+    },
+    {
+      "slug": "india-kr-india-and-south-korea-cement-energy-security-partnershi-2026",
+      "label": "India and South Korea Cement Energy Security Partnership",
+      "direction": "sideways",
+      "preview": "Broader energy security cooperation between India and South Korea forming parallel strategic alignment."
+    },
+    {
+      "slug": "india-kr-seouls-deepest-bet-how-hyundais-record-ipo-reshapes-india-ko-2025",
+      "label": "Seoul's Deepest Bet: Hyundai's Record IPO and India-Korea Relations",
+      "direction": "backward",
+      "preview": "Historical context of South Korea's sustained manufacturing investments in India's economy."
+    },
+    {
+      "slug": "india-kr-samsungs-noida-bet-how-seoul-weaponized-make-in-india-agains-2019",
+      "label": "Samsung's Noida Bet: Seoul's Make in India Strategy",
+      "direction": "backward",
+      "preview": "Earlier Korean industrial partnerships with India demonstrating pattern of leveraging Indian scale."
+    },
+    {
+      "slug": "india-kr-india-south-korea-announce-joint-strategic-vision-for-2-2026",
+      "label": "India-South Korea Announce Joint Strategic Vision for 2026",
+      "direction": "sideways",
+      "preview": "Broader bilateral strategic framework within which maritime cooperation is positioned."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41065/IndiaROK_Comprehensive_Framework_for_Partnership_in_Shipbuilding_Shipping_and_Maritime_Logistics"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

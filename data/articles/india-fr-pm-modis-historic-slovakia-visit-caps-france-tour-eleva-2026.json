@@ -1,0 +1,48 @@
+{
+  "slug": "india-fr-pm-modis-historic-slovakia-visit-caps-france-tour-eleva-2026",
+  "countryCode": "fr",
+  "date": "2026-06-20",
+  "title": "PM Modi's Historic Slovakia Visit Caps France Tour, Elevates India-France to Special Global Partnership",
+  "lede": "Indian Prime Minister undertakes June 2026 visit to France and Slovakia, inaugurating 'Bharat Innovates' innovation summit in Nice with President Macron while conducting first-ever Indian PM state visit to Slovakia.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The visit spans 13–18 June 2026 at the invitation of French President Emmanuel Macron and Slovak Prime Minister Robert Fico. This tour follows President Macron's February 2026 visit to India, during which the two nations elevated their relationship to a Special Global Strategic Partnership—positioning France as occupying a 'special place in India's strategic vision.' The Nice leg (14 June) will see the PM review progress on this elevated partnership status with President Macron and address mutual global concerns. The Slovakia segment (14–15 June) marks the first state visit by any Indian Prime Minister to the country, signalling New Delhi's intent to deepen Central European engagement alongside its Western European anchoring.",
+    "threads": "[[india-fr-india-and-france-elevate-strategic-partnership-to-speci-2026|India and France's Special Global Strategic Partnership elevation]] forms the immediate context for this bilateral review in Nice. The 'Bharat Innovates' summit—inaugurated during the India-France Year of Innovation—represents a concrete mechanism to operationalize the elevated partnership, channelling Indian start-ups toward global capital markets and positioning India's higher education ecosystem as a source of global innovation. [[india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026|This Slovakia milestone]] extends the tour's strategic footprint into Central Europe, complementing India's broader European outreach and suggesting a multi-vector engagement strategy beyond traditional Western European capitals.",
+    "signal": "Analysts should monitor the substance of India-France bilateral outcomes during the Nice summit—specifically which sectors (defence, space, trade, technology) receive renewed focus post-February 2026 elevation. The 'Bharat Innovates' inaugural performance will signal whether the India-France Year of Innovation translates into measurable investment flows and sustained institutional mechanisms. The Slovakia visit's outcome—whether bilateral agreements or joint statements emerge and what sectoral focus emerges—will indicate whether India is establishing a sustained Central European diplomatic foothold or pursuing opportunistic high-level engagement. Watch for any announced cooperation mechanisms or frameworks that institutionalize these partnerships beyond ceremonial visits."
+  },
+  "links": [
+    {
+      "slug": "india-fr-india-and-france-elevate-strategic-partnership-to-speci-2026",
+      "label": "India-France Special Global Strategic Partnership Elevation",
+      "direction": "backward",
+      "preview": "February 2026 elevation of India-France relationship to Special Global Strategic Partnership status."
+    },
+    {
+      "slug": "india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026",
+      "label": "Modi-Macron Summit in Nice",
+      "direction": "sideways",
+      "preview": "June 2026 summit in Nice reviewing progress on elevated India-France partnership."
+    },
+    {
+      "slug": "india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026",
+      "label": "PM Modi's Historic Slovakia State Visit",
+      "direction": "forward",
+      "preview": "First-ever Indian Prime Minister state visit to Slovakia, 14–15 June 2026."
+    },
+    {
+      "slug": "india-fr-president-macrons-fourth-india-visit-deepening-franco-i-2026",
+      "label": "President Macron's Fourth India Visit",
+      "direction": "backward",
+      "preview": "February 2026 visit by President Macron to India preceding PM Modi's France-Slovakia tour."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Press Release",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41300/PMs_Departure_statement_ahead_of_his_visit_to_France_and_Slovakia"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

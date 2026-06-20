@@ -1,0 +1,54 @@
+{
+  "slug": "india-fr-prime-ministers-three-phase-france-visit-begins-in-nice-2026",
+  "countryCode": "fr",
+  "date": "2026-06-14",
+  "title": "Prime Minister's Three-Phase France Visit Begins in Nice, Signals Strategic Engagement",
+  "lede": "India's Prime Minister arrived in Nice on June 14, 2026, launching a three-phase visit to France that will include G7 meetings in Évian-les-Bains and conclude in Paris, according to an official MEA briefing.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The Prime Minister's visit to France unfolds across three distinct geographical and diplomatic phases, with the opening engagement taking place in Nice on June 14, 2026. According to Foreign Secretary Vikram Misri's briefing, the delegation was received at the airport upon arrival the previous evening. The structured format—Nice, then Évian-les-Bains for G7 meetings, and finally Paris—suggests a deliberate sequencing of bilateral and multilateral engagements. This phased approach indicates India's simultaneous pursuit of direct bilateral diplomacy with France alongside participation in the broader G7 framework. The choice of Nice as the opening venue for what appears to be a major diplomatic engagement underscores the significance New Delhi and Paris are according to this interaction.",
+    "threads": "This visit connects to the broader trajectory of India-France relations, which have been elevated to special partnership status in recent years. The inclusion of G7 participation signals India's integration into key multilateral forums and France's role in facilitating that engagement. The three-nation tour format—combining bilateral meetings with multilateral G7 attendance—reflects the contemporary pattern of Indian diplomatic strategy, where bilateral depth is pursued alongside multilateral positioning. The presence of high-level officials at the briefing, including the Foreign Secretary, Ambassador to France, and Additional Secretary (Europe West Division), indicates the institutional weight New Delhi is placing on this engagement.",
+    "signal": "Analysts should monitor the outcomes of the Nice bilateral phase and their relationship to subsequent G7 discussions in Évian-les-Bains. The Paris conclusion will be critical for assessing whether specific bilateral agreements or commitments emerge. The three-phase structure suggests distinct agendas for each location—bilateral business in Nice, multilateral coordination in Évian-les-Bains, and likely conclusion/announcements in Paris. Watch for statements on strategic cooperation, defense ties, or multilateral coordination emerging from the concluding Paris phase. The timing and substance of any joint declarations will indicate whether this visit represents incremental relationship management or a strategic recalibration."
+  },
+  "links": [
+    {
+      "slug": "india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026",
+      "label": "PM Modi's France-Slovakia Tour Overview",
+      "direction": "sideways",
+      "preview": "Covers the broader context of Prime Minister Modi's multination tour including France participation."
+    },
+    {
+      "slug": "india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026",
+      "label": "Modi-Macron Summit in Nice Details",
+      "direction": "forward",
+      "preview": "Likely covers the bilateral engagement phase taking place in Nice during this visit."
+    },
+    {
+      "slug": "india-fr-india-france-pm-visit-yields-nine-bilateral-agreements-2026",
+      "label": "India-France PM Visit Bilateral Outcomes",
+      "direction": "forward",
+      "preview": "Expected to detail agreements and outcomes from the Prime Minister's visit phases."
+    },
+    {
+      "slug": "india-fr-france-and-india-elevate-strategic-partnership-to-speci-2026",
+      "label": "France-India Strategic Partnership Status",
+      "direction": "backward",
+      "preview": "Provides historical context on the evolution of India-France partnership framework."
+    },
+    {
+      "slug": "india-fr-modis-three-nation-tour-france-elevates-india-to-specia-2026",
+      "label": "Modi's Three-Nation Tour Strategic Significance",
+      "direction": "sideways",
+      "preview": "Contextualizes the France visit within Modi's broader regional diplomatic strategy."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Media Briefing",
+      "url": "https://www.mea.gov.in/media-briefings?dtl/41307/Transcript_of_Special_Briefing_by_MEA_on_the_visit_of_Prime_Minister_to_Nice_France_June_14_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "india-kr-india-south-korea-state-visit-yields-11-mous-across-mar-2026",
+  "countryCode": "kr",
+  "date": "2026-06-20",
+  "title": "India-South Korea State Visit Yields 11 MOUs Across Maritime, Energy, and Digital Sectors",
+  "lede": "South Korea's President completed a state visit to India in April 2026, producing a Joint Strategic Vision and 11 memoranda of understanding spanning shipbuilding, ports, energy security, and financial cooperation.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "The April 2026 state visit represents a formal elevation of India-South Korea bilateral engagement across multiple economic and strategic domains. The visit generated four major joint statements—on the Special Strategic Partnership, shipbuilding and maritime logistics, sustainability, and energy resource security—alongside a comprehensive framework of operational agreements. The timing reflects both nations' interest in deepening ties beyond traditional diplomatic channels into concrete sectoral partnerships. The MOU on upgrading the Comprehensive Economic Partnership Agreement signals intent to expand trade architecture, while agreements on ports, steel supply chains, and SMEs indicate focus on practical commercial integration. The dual emphasis on maritime cooperation and energy security suggests alignment on Indo-Pacific strategy and resource competition in a multipolar environment.",
+    "threads": "This visit builds on [[india-south-korea-elevate-strategic-partnership-through-2026|earlier strategic partnership announcements]] and follows the trajectory established during [[modis-seoul-summit-reframes-india-korea-ties-as-supply-chain-2023|Modi's 2023 Seoul summit]], which framed ties around supply-chain diversification. The sustainability and energy frameworks connect to India's broader climate commitments, echoing initiatives like [[india-and-south-korea-anchor-climate-partnership-under-2026|climate partnership arrangements]]. The Digital Bridge framework and financial cooperation MOUs—including between NPCI and Korean financial institutions—position both nations within the emerging digital payments and fintech ecosystem across Asia. The maritime and shipbuilding focus reflects shared interests in the Indo-Pacific, where both countries navigate strategic competition and commercial opportunity.",
+    "signal": "Analysts should monitor implementation of the Comprehensive Economic Partnership Agreement upgrade negotiations, as successful conclusion could reshape India-Korea trade volumes in steel, electronics, and chemicals. The port cooperation and maritime logistics frameworks require institutional activation; delays or exclusions in Chinese or third-party access patterns will signal how India-Korea maritime coordination evolves. The Industrial Cooperation Committee's first meeting will reveal priority sectors and investment appetite. Energy resource security cooperation—undefined in scope in the source—warrants close watch for specifics on LNG, minerals, or renewable energy collaboration. The Digital Bridge's development will indicate whether it becomes a model for alternative financial architecture in the region or remains declarative."
+  },
+  "links": [
+    {
+      "slug": "india-south-korea-elevate-strategic-partnership-through-2026",
+      "label": "India-South Korea Elevate Strategic Partnership",
+      "direction": "sideways",
+      "preview": "Related announcement of strategic partnership elevation during the same 2026 period"
+    },
+    {
+      "slug": "modis-seoul-summit-reframes-india-korea-ties-as-supply-chain-2023",
+      "label": "Modi's Seoul Summit on Supply-Chain Reframing",
+      "direction": "backward",
+      "preview": "2023 foundational summit that established supply-chain cooperation as central to bilateral ties"
+    },
+    {
+      "slug": "india-and-south-korea-anchor-climate-partnership-under-2026",
+      "label": "India-South Korea Climate Partnership",
+      "direction": "sideways",
+      "preview": "Parallel sustainability and climate framework announced during the same state visit"
+    },
+    {
+      "slug": "india-south-korea-announce-joint-strategic-vision-for-2-2026",
+      "label": "Joint Strategic Vision Announcement",
+      "direction": "sideways",
+      "preview": "Core outcome of the April 2026 state visit on Special Strategic Partnership"
+    },
+    {
+      "slug": "india-south-korea-elevate-partnership-with-11-mous-acro-2026",
+      "label": "11 MOUs Across Multiple Sectors",
+      "direction": "sideways",
+      "preview": "Detailed breakdown of the memoranda framework announced during the presidential visit"
+    },
+    {
+      "slug": "south-korean-president-lee-begins-first-state-visit-to-2026",
+      "label": "South Korean President's First State Visit",
+      "direction": "sideways",
+      "preview": "Contextual article on the presidential visit itself and its diplomatic significance"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Bilateral Document",
+      "url": "https://www.mea.gov.in/bilateral-documents?dtl/41062/List_of_Outcomes_State_Visit_of_President_of_Republic_of_Korea_to_India_April_1921_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
