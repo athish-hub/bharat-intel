@@ -1,0 +1,48 @@
+{
+  "slug": "india-fr-modi-charts-inclusive-growth-at-g7-evian-pivots-on-glob-2026",
+  "countryCode": "fr",
+  "date": "2026-06-21",
+  "title": "Modi Charts Inclusive Growth at G7 Evian, Pivots on Global Economic Model",
+  "lede": "Prime Minister Narendra Modi addressed the G7 Summit in Evian on June 17, 2026, reframing global economic growth around inclusion and human well-being rather than GDP metrics alone, anchoring the pitch to India's proven development philosophy.",
+  "category": "multilateral",
+  "significance": "high",
+  "sections": {
+    "context": "Prime Minister Modi's intervention at the G7 Outreach Session on 'Reviving a Balanced, Shared and Sustainable Economic Growth for All' positioned India's economic model as a corrective to conventional growth paradigms. Speaking at a moment when global uncertainties loom, Modi emphasized that sustainable growth must measure success not by trade volumes or GDP figures, but by tangible improvements in people's inclusion and well-being. This framing directly reflects India's domestic development philosophy: 'Sabka Sath, Sabka Vikas, Sabka Vishwas, Sabka Prayas'—Together with all, Development for all, Trust of All, and effort of All. The timing underscores India's intent to shape multilateral economic discourse during a period of geopolitical fragmentation and competing visions of growth.",
+    "threads": "Modi's G7 intervention echoes the principles that guided India's G20 presidency, which adopted the unifying motto 'One Earth, One Family, One Future.' This consistency suggests a coherent Indian strategy to embed inclusive growth language into all major multilateral forums. The Prime Minister also referenced the India Middle East Europe Economic Corridor (IMEC) as a concrete instantiation of this philosophy—a project designed around shared prosperity rather than zero-sum competition. [[india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026|The Modi-Macron summit in Nice]] earlier in his France visit appears to have set the tone for this broader multilateral outreach, deepening the bilateral foundation before Modi's G7 address. The emphasis on 'balanced' growth may also signal India's sensitivity to Western concerns about equity in international economic arrangements while maintaining New Delhi's own development priorities.",
+    "signal": "Analysts should monitor whether India's inclusive growth messaging gains traction among G7 members and influences the group's post-summit communiqué language. Watch for uptake of India's people-centric metrics in future multilateral economic declarations. The framing of IMEC as a model project—one rooted in shared and sustainable principles—will test whether New Delhi can position itself as an alternative architect of global economic corridors against existing frameworks. In the 6–18 month horizon, expect India to press this narrative at subsequent multilateral forums (BRICS, SCO, ASEAN) and in bilateral economic negotiations, particularly with France and Europe, where Modi's current visit has elevated receptivity. The success of this pivot depends on translating rhetoric into measurable outcomes—whether India can demonstrate that inclusive growth models deliver real returns to participating nations and stakeholders."
+  },
+  "links": [
+    {
+      "slug": "india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026",
+      "label": "Modi-Macron Summit in Nice Deepens India-France Special Partnership",
+      "direction": "sideways",
+      "preview": "Covers the bilateral summit that preceded Modi's G7 address, establishing the France-India strategic foundation for his multilateral interventions."
+    },
+    {
+      "slug": "india-fr-india-france-elevate-to-special-global-strategic-partne-2026",
+      "label": "India-France Elevate to Special Global Strategic Partnership",
+      "direction": "sideways",
+      "preview": "Documents the elevation of India-France ties to a 'Special Global Strategic Partnership,' contextualizing Modi's diplomatic leverage at G7."
+    },
+    {
+      "slug": "india-fr-india-france-innovation-roadmap-2030-elevating-strategi-2026",
+      "label": "India-France Innovation Roadmap 2030: Elevating Strategic Ties",
+      "direction": "sideways",
+      "preview": "Details the innovation and technology framework that underpins the deepened partnership, relevant to India's inclusive growth model pitch."
+    },
+    {
+      "slug": "india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026",
+      "label": "PM Modi's France-Slovakia Tour Marks First Indian Premier Visit",
+      "direction": "backward",
+      "preview": "Provides temporal and diplomatic context for Modi's June 2026 France visit, including the G7 Evian address."
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Press Release",
+      "url": "https://www.mea.gov.in/press-releases?dtl/41328/Prime_Minister_addresses_the_session_on_Reviving_a_Balanced_Shared_and_Sustainable_Economic_Growth_for_All_at_G7_Summit_in_Evian_France"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}

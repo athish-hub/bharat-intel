@@ -1,0 +1,48 @@
+{
+  "slug": "india-fr-pm-modis-june-2026-europe-visit-france-and-slovakia-dip-2026",
+  "countryCode": "fr",
+  "date": "2026-06-11",
+  "title": "PM Modi's June 2026 Europe Visit: France and Slovakia Diplomatic Offensive",
+  "lede": "India's Prime Minister Narendra Modi embarks on a multi-nation European tour from June 14-18, 2026, encompassing France and Slovakia alongside participation in the G7 Summit, signaling New Delhi's deepening engagement with Western strategic frameworks.",
+  "category": "diplomatic",
+  "significance": "high",
+  "sections": {
+    "context": "Prime Minister Modi's visit to Europe during mid-June 2026 represents a coordinated diplomatic push across multiple Western partners, with France and Slovakia as primary destinations. The Ministry of External Affairs convened a special briefing on June 12, 2026, indicating the strategic importance assigned to this tour. The five-day visit encompasses bilateral engagements alongside participation in the G7 Summit, suggesting India's intention to engage both on bilateral strategic issues and multilateral economic governance platforms. [[india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026|This tour marks a significant diplomatic calendar event]] for Indo-European relations during this period. The visit's structure—spanning three destinations across both countries—reflects a deliberate sequencing of diplomatic activities to maximize bilateral outcomes while leveraging multilateral forums.",
+    "threads": "The visit builds on India's established strategic partnership trajectory with France, a long-standing partner in defense, technology, and strategic affairs. [[india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026|Previous India-France summit engagements have deepened their special global strategic partnership]], establishing a pattern of high-level political dialogue. Slovakia's inclusion in the itinerary signals India's growing attention to Central European partners, potentially broadening New Delhi's engagement beyond traditional Western European anchors. The G7 participation component positions India within global economic and political governance discussions, reflecting its status as a major emerging economy despite not being a formal G7 member.",
+    "signal": "Analysts should monitor the specific outcomes and bilateral agreements announced following Modi's meetings with French and Slovak leadership. The nature of commitments on defense cooperation, technology transfer, and economic partnerships will indicate the depth of India's strategic pivot toward Europe. Watch for statements regarding India's positioning on multilateral frameworks during the G7 discussions, particularly on global economic governance, technology standards, and geopolitical alignments. Post-visit parliamentary briefings and detailed bilateral documents will clarify whether this tour establishes new institutional mechanisms or reinforces existing frameworks for India-Europe cooperation."
+  },
+  "links": [
+    {
+      "slug": "india-fr-pm-modis-france-slovakia-tour-marks-first-indian-premie-2026",
+      "label": "PM Modi's France-Slovakia Tour Historical Significance",
+      "direction": "backward",
+      "preview": "Contextualizes Modi's European visit within the arc of India-Europe diplomatic engagement"
+    },
+    {
+      "slug": "india-fr-modi-macron-summit-in-nice-deepens-india-france-special-2026",
+      "label": "Modi-Macron Summit Deepens India-France Partnership",
+      "direction": "sideways",
+      "preview": "Illustrates the trajectory of bilateral India-France strategic dialogue at leadership level"
+    },
+    {
+      "slug": "india-fr-india-france-pm-visit-yields-nine-bilateral-agreements-2026",
+      "label": "India-France PM Visit Bilateral Agreements",
+      "direction": "forward",
+      "preview": "Tracks concrete outcomes and institutional frameworks established through high-level visits"
+    },
+    {
+      "slug": "india-fr-india-france-elevate-to-special-global-strategic-partne-2026",
+      "label": "India-France Strategic Partnership Elevation",
+      "direction": "sideways",
+      "preview": "Documents the formal status and scope of India-France bilateral relations"
+    }
+  ],
+  "sources": [
+    {
+      "label": "MEA Media Briefing",
+      "url": "https://www.mea.gov.in/media-briefings?dtl/41289/Transcript_of_Special_Briefing_by_MEA_on_the_Prime_Ministers_visit_to_France_and_Slovak_Republic_June_11_2026"
+    }
+  ],
+  "generated": true,
+  "sourceEventId": ""
+}
